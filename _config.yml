@@ -15,6 +15,7 @@ url: "http://securonomics.github.io" # the base hostname & protocol for your sit
 twitter_username: roblemos
 github_username:  securonomics
 linkedin_username: roblemos
+theme: jekyll-theme-slate
 
 # Build settings
 markdown: kramdown
