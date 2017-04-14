@@ -15,7 +15,7 @@ url: "http://roblemos.github.io" # the base hostname & protocol for your site
 twitter_username: roblemos
 github_username:  roblemos
 linkedin_username: roblemos
-theme: jekyll-theme-slate
+# theme: jekyll-theme-slate
 
 # Build settings
 markdown: kramdown
