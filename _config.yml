@@ -19,3 +19,4 @@ theme: jekyll-theme-slate
 
 # Build settings
 markdown: kramdown
+permalink: /blog/:year/:month/:day/:title
