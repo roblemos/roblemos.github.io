@@ -40,8 +40,8 @@ While there is no reason to doubt the veracity of the data, discovering its prov
 
 Two final points:
 - A data point that was supposed to be "recent" **actually came from data from 2013 or 2014**. The data might even be older, as a [2008 CNET News.com piece](https://www.cnet.com/news/forrester-survey-discovers-that-virtually-no-one-uses-open-source/) notes a prediction:
-> Earlier this year, Gartner's Mark Driver noted the following: "By 2012, 80 percent or more of all commercial software will include elements of open-source technology."
-- Source is ComputerWorld UK, broken link, according to [CNET News.com](https://www.cnet.com/news/forrester-survey-discovers-that-virtually-no-one-uses-open-source/)
+> Earlier this year, Gartner's Mark Driver noted the following: By 2012, 80 percent or more of all commercial software will include elements of open-source technology.
+> - Source is ComputerWorld UK, broken link, according to [CNET News.com](https://www.cnet.com/news/forrester-survey-discovers-that-virtually-no-one-uses-open-source/)
 - Without more information, it is hard to decide what to make of, for example, Black Duck's finding that:
 > On average, open source comprised 36% of the code base in these applications. This is a lower percentage than cited by Forrester, a reflection of the mature application codebases that are typically the focus of Black Duck audits.
 > - Black Duck's [_2017 Open Source Security and Risk Analysis_](https://www.blackducksoftware.com/open-source-security-risk-analysis-2017), p. 5. 
