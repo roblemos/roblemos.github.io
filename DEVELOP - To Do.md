@@ -11,3 +11,8 @@ These are my to-dos for the development branch. This file is in .gitignore, so i
 - [ ] Fix navigation in header (curently broken)
 - [ ] Replace navigation with menu
 
+## For version 2.0
+- [ ] Get Minimal Mistakes theme working
+- [ ] Create sections for Articles, Books, Blog
+- [ ] 
+
