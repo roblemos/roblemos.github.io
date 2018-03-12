@@ -15,8 +15,23 @@ url: "http://roblemos.github.io" # the base hostname & protocol for your site
 twitter_username: roblemos
 github_username:  roblemos
 linkedin_username: roblemos
-theme: minimal-mistakes-jekyll
+theme: minima
 
 # Build settings
 markdown: kramdown
 permalink: /blog/:year/:month/:day/:title
+
+plugins:
+  - jekyll-feed
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
