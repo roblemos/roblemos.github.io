@@ -15,14 +15,12 @@ url: "http://roblemos.github.io" # the base hostname & protocol for your site
 twitter_username: roblemos
 github_username:  roblemos
 linkedin_username: roblemos
-theme: minima
-
+theme: jekyll-theme-slate
+#remote_theme: "mmistakes/minimal-mistakes"
 # Build settings
 markdown: kramdown
 permalink: /blog/:year/:month/:day/:title
 
-plugins:
-  - jekyll-feed
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
