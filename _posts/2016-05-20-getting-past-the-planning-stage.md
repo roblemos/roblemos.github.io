@@ -1,8 +1,9 @@
 ---
-layout: post
 title:  "Getting Past the Planning Stage"
 date:   2016-05-20 8:10 -04:00
-categories: blogging gtd development
+categories:
+- gtd
+- development
 ---
 
 I'm a planner. While often a good thing — planning out a large report can make the resultant work much easier — when it comes to embarking on a new projects, being a planner means running the risk of being stuck in organization. Planning becomes procrastination.

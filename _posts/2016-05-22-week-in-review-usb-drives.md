@@ -1,8 +1,8 @@
 ---
-layout: post
 title:  "Week in Review: USB Drives and Toothbrushes"
 date:   2016-05-22 8:10 -04:00
-categories: week-in-review blogging journalism
+categories: 
+- week-in-review 
 ---
 
 Ransomware is a significant threat companies and consumers. No surprise, then, that U.S. lawmakers are calling hearings on the increasing number of attacks. I hadn't heard about [the incident that disrupted the school district in Horry County, S.C.](http://www.eweek.com/security/ransomware-threat-continues-to-grow-as-lawmakers-take-interest.html) until their director of information technology testified at the U.S. Senate Judiciary Committee's Subcommittee on Crime and Terrorism, but the details are interesting.

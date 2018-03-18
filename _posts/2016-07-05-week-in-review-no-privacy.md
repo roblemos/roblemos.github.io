@@ -1,8 +1,8 @@
 ---
-layout: post
 title:  "Month in Review: No Privacy for Home Computers; The End of 'Trustworthy' Ransomware?"
 date:   2016-07-05 11:44 -04:00
-categories: week-in-review blogging journalism
+categories: 
+- week-in-review 
 ---
 
 It's amazing how quickly a month can pass and how easily a commitment to regularly update your blog goes by the wayside. The past month, I've written more than a dozen articles, but two that deal with important events stand out.

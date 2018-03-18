@@ -1,8 +1,8 @@
 ---
-layout: post
 title:  "Week in Review: Breach Losses No Biggie"
 date:   2016-05-30 8:10 -04:00
-categories: week-in-review blogging journalism
+categories: 
+- week-in-review 
 ---
 
 Phishing is one of those problems that the security industry is not going to solve. However, they are making it tougher. 

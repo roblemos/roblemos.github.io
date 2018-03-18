@@ -1,8 +1,8 @@
 ---
-layout: post
 title:  "Two Decades"
 date:   2017-04-13 15:37 -04:00
-categories: blogging productivity
+categories: 
+- journalism
 ---
 
 February 2017 marked a major anniversary for me: Two straight decades as a journalist and writer. 

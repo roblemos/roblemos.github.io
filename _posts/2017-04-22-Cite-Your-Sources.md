@@ -1,8 +1,9 @@
 ---
-layout: post
 title:  "Cite Your Sources"
 date:   2017-04-23 8:10 -04:00
-categories: blogging data-science journalism digging-into-data
+categories: 
+- data science
+- digging into data
 excerpt: <p>Digging into a data point that has minimal citation finds it is more three years older than expected and came from a completely different source.</p>
 ---
 
