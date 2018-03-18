@@ -2,6 +2,6 @@ _site
 .sass-cache
 .jekyll-metadata
 .ruby-gemset*
-.ruby-verion*
+.ruby-version*
 _drafts
 DEVELOP - To Do.md
