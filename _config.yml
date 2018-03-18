@@ -19,7 +19,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   Journalist, data researcher and technology writer
 locale: en-US
 baseurl: # the subpath of your site, e.g. "/blog"
-url: # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url: "http://roblemos.github.io" # the base hostname & protocol for your site
 logo: # path of site logo, e.g. "/images/logo.png"
 date_format: "%B %-d, %Y"
 read_time: # reading time estimates, e.g. true
@@ -33,9 +33,9 @@ google_fonts:
 google_analytics: # Google Analytics id, e.g. "UA-NNNNNNNN-N"
 # disqus:
 #   shortname: # Disqus shortname, e.g. "my_disqus_shortname"
-twitter:
-  username: roblemos
-github_username:  jekyll
+twitter_username: roblemos
+github_username:  roblemos
+linkedin_username: roblemos
 
 # Theme settings
 theme: jekyll-theme-so-simple
