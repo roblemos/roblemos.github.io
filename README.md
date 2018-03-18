@@ -1,10 +1,7 @@
 # roblemos.github.io
 
-This is my static blog. Nothing to see here. Move along.
+This is my static blog. 
 
-Things to do [18 Mar 2018]: 
-- [X] Installed the So Simple Theme
-- [ ] Add back the About page link
-- [ ] Expand site beyond just the blog
+Using the [So Simple theme](https://github.com/mmistakes/so-simple-theme) designed by Michael Rose.
 
 -R

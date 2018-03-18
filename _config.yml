@@ -48,6 +48,7 @@ permalink: /:categories/:title/
 markdown: kramdown
 feed:
   path: atom.xml
+logo: /assets/images/rob-mug.jpg
 
 # Liquid
 liquid:
