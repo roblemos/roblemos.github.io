@@ -38,7 +38,8 @@ github_username:  roblemos
 linkedin_username: roblemos
 
 # Theme settings
-theme: jekyll-theme-so-simple
+# theme: jekyll-theme-so-simple
+remote_theme: "mmistakes/so-simple-theme"
 # theme: minimal-mistakes-jekyll
 # remote_theme: "mmistakes/minimal-mistakes"
 
