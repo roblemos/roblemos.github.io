@@ -1,5 +1,5 @@
 ---
-title:  "Two Decades"
+title:  "Two decades"
 date:   2017-04-13 15:37 -04:00
 categories: 
 - journalism

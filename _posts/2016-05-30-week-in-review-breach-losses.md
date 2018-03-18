@@ -1,5 +1,5 @@
 ---
-title:  "Week in Review: Breach Losses No Biggie"
+title:  "Week in review: Breach losses no biggie"
 date:   2016-05-30 8:10 -04:00
 categories: 
 - week-in-review 

@@ -1,5 +1,5 @@
 ---
-title:  "Cite Your Sources"
+title:  "Cite your sources"
 date:   2017-04-23 8:10 -04:00
 categories: 
 - data science

@@ -1,5 +1,5 @@
 ---
-title:  "Month in Review: No Privacy for Home Computers; The End of 'Trustworthy' Ransomware?"
+title:  "Month in review: No privacy for home computers, and the end of 'trustworthy' ransomware?"
 date:   2016-07-05 11:44 -04:00
 categories: 
 - week-in-review 

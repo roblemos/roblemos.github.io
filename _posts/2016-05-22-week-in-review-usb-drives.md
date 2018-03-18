@@ -1,5 +1,5 @@
 ---
-title:  "Week in Review: USB Drives and Toothbrushes"
+title:  "Week in review: USB drives and toothbrushes"
 date:   2016-05-22 8:10 -04:00
 categories: 
 - week-in-review 

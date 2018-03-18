@@ -1,5 +1,5 @@
 ---
-title:  "Getting Past the Planning Stage"
+title:  "Getting past the planning stage"
 date:   2016-05-20 8:10 -04:00
 categories:
 - gtd
