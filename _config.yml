@@ -92,20 +92,30 @@ defaults:
     values:
       layout: post
       share: true
+      author: robertlemos
 
 # Site Author
 author:
-  name:
-  picture:
-  email:
-  twitter:
+  name: Robert Lemos
+  picture: /assets/images/rob-mug.jpg
+  email: mail-at-robertlemos-dot-com
+  twitter: roblemos
   links:
-    - title:
-      url:
-      icon:
+    - title: Twitter
+      url: https://twitter.com/roblemos
+      icon: fab fa-twitter-square
+    - title: GitHub
+      url: https://github.com/roblemos
+      icon: fab fa-github-square
 
 # Footer Links
 footer_links:
+  - title: Twitter
+    url: https://twitter.com/roblemos
+    icon: fab fa-twitter-square
+  - title: GitHub
+    url: https://github.com/roblemos
+    icon: fab fa-github-square
   - title: Feed
     url: atom.xml
     icon: fas fa-rss-square
