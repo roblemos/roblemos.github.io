@@ -6,8 +6,8 @@
 </description>
     <link>http://0.0.0.0:4000/</link>
     <atom:link href="http://0.0.0.0:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 05 Nov 2023 13:08:54 -0600</pubDate>
-    <lastBuildDate>Sun, 05 Nov 2023 13:08:54 -0600</lastBuildDate>
+    <pubDate>Sun, 05 Nov 2023 13:21:45 -0600</pubDate>
+    <lastBuildDate>Sun, 05 Nov 2023 13:21:45 -0600</lastBuildDate>
     <generator>Jekyll v3.9.0</generator>
     
       <item>
@@ -67,10 +67,10 @@ $ git push origin gh-pages
         <title>Week 44 in Review: Budget Cuts to Hit CISA, Cybersecurity Jobs Report</title>
         <description>&lt;p&gt;I mainly focused on the economy in my published reports this week. Both articles are for Dark Reading.&lt;/p&gt;
 
-&lt;h3 id=&quot;isc2-study-economic-conditions-continue-to-sandbag-cyber-hiring--dark-reading&quot;&gt;&lt;a href=&quot;https://www.darkreading.com/careers-and-people/cybersecurity-s-continued-shortfall-not-proof-against-layoffs&quot;&gt;ISC2 Study: Economic Conditions Continue to Sandbag Cyber Hiring | Dark Reading&lt;/a&gt;&lt;/h3&gt;
+&lt;h2 id=&quot;isc2-study-economic-conditions-continue-to-sandbag-cyber-hiring--dark-reading&quot;&gt;&lt;a href=&quot;https://www.darkreading.com/careers-and-people/cybersecurity-s-continued-shortfall-not-proof-against-layoffs&quot;&gt;ISC2 Study: Economic Conditions Continue to Sandbag Cyber Hiring | Dark Reading&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;&lt;em&gt;Nearly 1.5 million people work in cybersecurity in North America, but even with a growing gap in skilled specialists, they bear a higher chance of hiring freezes and layoffs. (1 November 2023)&lt;/em&gt;&lt;/p&gt;
 
-&lt;h3 id=&quot;budget-cuts-at-cisa-could-affect-enterprise-cybersecurity--dark-reading&quot;&gt;&lt;a href=&quot;https://www.darkreading.com/edge/budget-cuts-at-cisa-could-affect-enterprise-cybersecurity&quot;&gt;Budget Cuts at CISA Could Affect Enterprise Cybersecurity | Dark Reading&lt;/a&gt;&lt;/h3&gt;
+&lt;h2 id=&quot;budget-cuts-at-cisa-could-affect-enterprise-cybersecurity--dark-reading&quot;&gt;&lt;a href=&quot;https://www.darkreading.com/edge/budget-cuts-at-cisa-could-affect-enterprise-cybersecurity&quot;&gt;Budget Cuts at CISA Could Affect Enterprise Cybersecurity | Dark Reading&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;&lt;em&gt;Politicians are suggesting massive cuts to CISA’s budget, threatening its missions to secure federal networks and help critical infrastructure operators fend off cyberattacks. (30 October 2023)&lt;/em&gt;&lt;/p&gt;
 
 </description>
