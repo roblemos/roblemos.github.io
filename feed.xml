@@ -6,8 +6,8 @@
 </description>
     <link>http://0.0.0.0:4000/</link>
     <atom:link href="http://0.0.0.0:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 05 Nov 2023 11:13:55 -0600</pubDate>
-    <lastBuildDate>Sun, 05 Nov 2023 11:13:55 -0600</lastBuildDate>
+    <pubDate>Sun, 05 Nov 2023 13:08:54 -0600</pubDate>
+    <lastBuildDate>Sun, 05 Nov 2023 13:08:54 -0600</lastBuildDate>
     <generator>Jekyll v3.9.0</generator>
     
       <item>
@@ -48,7 +48,7 @@ $ git push origin gh-pages
 
 &lt;p&gt;At this point, there is a still a bunch to do to the blog to make it better, but at least I solved the workflow issues, which is half the battle. I have a lot of customizing to do on the theme, as well as making sure all the templates are displaying as they should.&lt;/p&gt;
 </description>
-        <pubDate>Fri, 03 Nov 2023 00:00:00 -0500</pubDate>
+        <pubDate>Sun, 05 Nov 2023 00:00:00 -0500</pubDate>
         <link>http://0.0.0.0:4000/blog-back-up-and-running</link>
         <guid isPermaLink="true">http://0.0.0.0:4000/blog-back-up-and-running</guid>
         
@@ -60,6 +60,70 @@ $ git push origin gh-pages
         <category>blog</category>
         
         <category>development</category>
+        
+      </item>
+    
+      <item>
+        <title>Week 44 in Review: Budget Cuts to Hit CISA, Cybersecurity Jobs Report</title>
+        <description>&lt;p&gt;I mainly focused on the economy in my published reports this week. Both articles are for Dark Reading.&lt;/p&gt;
+
+&lt;h3 id=&quot;isc2-study-economic-conditions-continue-to-sandbag-cyber-hiring--dark-reading&quot;&gt;&lt;a href=&quot;https://www.darkreading.com/careers-and-people/cybersecurity-s-continued-shortfall-not-proof-against-layoffs&quot;&gt;ISC2 Study: Economic Conditions Continue to Sandbag Cyber Hiring | Dark Reading&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;em&gt;Nearly 1.5 million people work in cybersecurity in North America, but even with a growing gap in skilled specialists, they bear a higher chance of hiring freezes and layoffs. (1 November 2023)&lt;/em&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;budget-cuts-at-cisa-could-affect-enterprise-cybersecurity--dark-reading&quot;&gt;&lt;a href=&quot;https://www.darkreading.com/edge/budget-cuts-at-cisa-could-affect-enterprise-cybersecurity&quot;&gt;Budget Cuts at CISA Could Affect Enterprise Cybersecurity | Dark Reading&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;em&gt;Politicians are suggesting massive cuts to CISA’s budget, threatening its missions to secure federal networks and help critical infrastructure operators fend off cyberattacks. (30 October 2023)&lt;/em&gt;&lt;/p&gt;
+
+</description>
+        <pubDate>Fri, 03 Nov 2023 10:44:00 -0500</pubDate>
+        <link>http://0.0.0.0:4000/week-in-review-44</link>
+        <guid isPermaLink="true">http://0.0.0.0:4000/week-in-review-44</guid>
+        
+        <category>week-in-review</category>
+        
+        
+        <category>articles</category>
+        
+      </item>
+    
+      <item>
+        <title>Week 43 in Review: Rockwell Buys Cybersecurity, SMS 2FA Still Sticky</title>
+        <description>&lt;p&gt;A breach of at least one developer on the Steam game platform led Valve, the owner of Steam, to required a cell number for every developer for 2-factor authentication, despite the fact that SMS is considered to be the least secure second-factor. Meanwhile, the industrial control industry continues to partner or purchase cybersecurity services.&lt;/p&gt;
+
+&lt;h2 id=&quot;rockwells-verve-buy-enlivens-critical-infrastructure-security--dark-reading&quot;&gt;&lt;a href=&quot;https://www.darkreading.com/ics-ot/rockwell-verve-buy-critical-infrastructure-security&quot;&gt;Rockwell’s Verve Buy Enlivens Critical Infrastructure Security | Dark Reading&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;em&gt;The industrial automation giant agrees to buy Verve Industrial Protection, joining in an ICS trend of bringing cybersecurity capabilities in-house to keep up with attackers. (26 October 2023)&lt;/em&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;valves-2fa-mandate-for-game-developers-shows-sms-stickiness--dark-reading&quot;&gt;&lt;a href=&quot;https://www.darkreading.com/application-security/valve-2fa-mandate-game-developers-sms-stickiness&quot;&gt;Valve’s 2FA Mandate for Game Developers Shows SMS Stickiness | Dark Reading&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;em&gt;Despite warnings that sending one-time passwords via text messages is a flawed security measure, companies continue to roll out the approach, especially in consumer-facing applications. (23 October 2023)&lt;/em&gt;&lt;/p&gt;
+</description>
+        <pubDate>Fri, 27 Oct 2023 10:44:00 -0500</pubDate>
+        <link>http://0.0.0.0:4000/week-in-review-43</link>
+        <guid isPermaLink="true">http://0.0.0.0:4000/week-in-review-43</guid>
+        
+        <category>week-in-review</category>
+        
+        
+        <category>articles</category>
+        
+      </item>
+    
+      <item>
+        <title>Week 42 in Review: A Look as OSQuery, a README feature on MOVEit</title>
+        <description>&lt;p&gt;Open-source software is the critical technology that has allowed cloud services to take off. Why has a similar effect not happened in the security world. The open-source infrastructure around information security is there, but agents — such as &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;osquery&lt;/code&gt; are not leading to common ecosystems. Also, three months after the late-May MOVEit compromises, organizations are still disclosing breaches. Why the delay and what’s it mean?&lt;/p&gt;
+
+&lt;h2 id=&quot;open-source-security-agents-promise-greater-simplicity-flexibility--dark-reading&quot;&gt;&lt;a href=&quot;https://www.darkreading.com/dr-tech/open-source-security-agents-promise-greater-simplicity-flexibility&quot;&gt;Open Source Security Agents Promise Greater Simplicity, Flexibility | Dark Reading&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;em&gt;Endpoint management based on open source agents, such as osquery, could simplify IT management and security while giving larger firms more customization options. (18 October 2023)&lt;/em&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;moveit-transfer-saga-shows-danger-of-the-dark-middle--readmesecurity&quot;&gt;&lt;a href=&quot;https://readme.synack.com/moveit-transfer-saga-shows-danger-of-the-dark-middle&quot;&gt;MOVEit Transfer saga shows danger of the ‘Dark Middle’ | README.security&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;em&gt;When attackers find vulnerabilities in software used by service providers with dozens or hundreds of clients, the impact of a breach can quickly spiral out of control. (18 October 2023)&lt;/em&gt;&lt;/p&gt;
+</description>
+        <pubDate>Fri, 20 Oct 2023 10:44:00 -0500</pubDate>
+        <link>http://0.0.0.0:4000/week-in-review-42</link>
+        <guid isPermaLink="true">http://0.0.0.0:4000/week-in-review-42</guid>
+        
+        <category>week-in-review</category>
+        
+        
+        <category>articles</category>
         
       </item>
     
@@ -196,153 +260,6 @@ git push origin master
         
         
         <category>techtarget</category>
-        
-        <category>articles</category>
-        
-      </item>
-    
-      <item>
-        <title>Cite your sources</title>
-        <description>&lt;p&gt;Every week – if not every day – I come across reports that quote a data point with very little information about the source. Here is a recent one (the data point is also in the press release):&lt;/p&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;A recent Forrester Research report called attention to open source’s preeminence in application development, with custom code comprising only 10% to 20% of applications.&lt;/p&gt;
-  &lt;ul&gt;
-    &lt;li&gt;Black Duck’s &lt;a href=&quot;https://www.blackducksoftware.com/open-source-security-risk-analysis-2017&quot;&gt;&lt;em&gt;2017 Open Source Security and Risk Analysis&lt;/em&gt;&lt;/a&gt;, p. 5.&lt;/li&gt;
-  &lt;/ul&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;The first problem I have with the data point is that there is no citation or link for the source of the data. The second problem I have is that – and this took far more digging than is warranted – the 10 to 20 percent number is &lt;strong&gt;not even from Forrester Research&lt;/strong&gt;.&lt;/p&gt;
-
-&lt;p&gt;Now, this is not about picking on one company. Both in my role as a journalist, and as a data scientist helping companies analyze data to produce internal and public reports, I often run into this problem. I’m hoping by highlighting the issues that companies will be more careful.&lt;/p&gt;
-
-&lt;p&gt;So lets track this one back. And a note on terminology: If the paper gives a full citation, then I will use the verb “cite;” if they give vague information, I will describe that as “sourcing;” and if they give no information, I will label that “unsourced.”&lt;/p&gt;
-
-&lt;h3 id=&quot;1-black-ducks-report-sourced-a-forrester-report-but-with-no-citation&quot;&gt;1. Black Duck’s report sourced a Forrester report but with no citation&lt;/h3&gt;
-&lt;p&gt;While the press release used the data point without a source, the report itself referred to “Forrester Research.” After a few searches, I found &lt;a href=&quot;https://www.bsminfo.com/doc/forrester-wave-report-highlights-the-clear-prominence-of-open-source-0001&quot;&gt;this March 2017 article&lt;/a&gt;, which mentions the same data point and links to the &lt;a href=&quot;https://www.forrester.com/report/The+Forrester+Wave+Software+Composition+Analysis+Q1+2017/-/E-RES136463&quot;&gt;&lt;em&gt;The Forrester Wave™: Software Composition Analysis, Q1 2017&lt;/em&gt;&lt;/a&gt;. (Note: The article above essentially rewrites &lt;a href=&quot;http://www.businesswire.com/news/home/20170223006024/en/Open-Source-Security-Provider-Black-Duck-%E2%80%9CLeader%E2%80%9D&quot;&gt;a press release&lt;/a&gt; from a couple weeks before.)&lt;/p&gt;
-
-&lt;h3 id=&quot;2-citing-a-non-public-report-generally-does-not-help&quot;&gt;2. Citing a non-public report generally does not help&lt;/h3&gt;
-&lt;p&gt;The Forrester Report lists for $2,495. However, these reports are generally available publicly. Searching for the title and PDF filetype redirected me to &lt;a href=&quot;https://www.blackducksoftware.com/forrester-software-composition-analysis-q1-2017&quot;&gt;a Black Duck landing page&lt;/a&gt; that hosted the Forrester report. Turns out, Black Duck sponsored the Forrester report that named them a leader in the industry. This is not uncommon for any industry report.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;In their haste to create applications, developers use open source components as their foundation, creating applications using only 10% to 20% new code.&lt;/p&gt;
-  &lt;ul&gt;
-    &lt;li&gt;&lt;a href=&quot;https://www.blackducksoftware.com/forrester-software-composition-analysis-q1-2017&quot;&gt;&lt;em&gt;The Forrester Wave™: Software Composition Analysis, Q1 2017&lt;/em&gt;&lt;/a&gt;&lt;/li&gt;
-  &lt;/ul&gt;
-&lt;/blockquote&gt;
-
-&lt;h3 id=&quot;3-the-forrester-report-actually-cites-sonatype-research&quot;&gt;3. The Forrester report actually cites Sonatype research&lt;/h3&gt;
-&lt;p&gt;So, here’s the rub: The Forrester report is not the source for the data point. The report cites a Sonatype report from 2015 &lt;a href=&quot;http://cdn2.hubspot.net/hubfs/1958393/White_Papers/2015_State_of_the_Software_Supply_Chain_Report-.pdf?t=1466775053631&quot;&gt;with a link&lt;/a&gt;. (Kudos to Forrester Research for the link.)&lt;/p&gt;
-
-&lt;p&gt;One problem, however, is that finding the number in the 33-page report is not easy. Searching for “10 to 20 percent” doesn’t return anything, even searching through all the “10” entries does not work either. The reason is that the original data point is:&lt;/p&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;[I]n the software supply chain, where an average of 106 components comprise 80-90% of the total application, few organizations have visibility into what components were used and where.&lt;/p&gt;
-  &lt;ul&gt;
-    &lt;li&gt;&lt;a href=&quot;http://cdn2.hubspot.net/hubfs/1958393/White_Papers/2015_State_of_the_Software_Supply_Chain_Report-.pdf?t=1466775053631&quot;&gt;2015 State of the Software Supply Chain Report&lt;/a&gt;, p. 22.&lt;/li&gt;
-  &lt;/ul&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;The point is also mentioned on page 5. (It was around this point that I decided this would make a good blog post.)&lt;/p&gt;
-
-&lt;p&gt;The trail did not stop here, of course. Sonatype cited older research in both instances.&lt;/p&gt;
-
-&lt;h3 id=&quot;4-sonatype-report-cites-ongoing-application-health-check-data-circa-2013-2014&quot;&gt;4. Sonatype report cites ongoing Application Health Check data (circa 2013-2014)&lt;/h3&gt;
-&lt;p&gt;The 33-page Sonatype report cited (in an endnote) its own data: For the citation on page 5, “Sonatype research including Application Health Checks and Open Source surveys, 2013 – 2014,” and for the citation on page 22, “Sonatype, 2014 analysis of Application Health Check results.”&lt;/p&gt;
-
-&lt;p&gt;Unfortunately, none of the Application Health Check results are contained in a standalone report. Some results are quoted in a slide deck, or what appears to be the notes to a slide deck.&lt;/p&gt;
-
-&lt;p&gt;While there is no reason to doubt the veracity of the data, discovering its provenance was certainly a chore.&lt;/p&gt;
-
-&lt;p&gt;Two final points:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;A data point that was supposed to be “recent” &lt;strong&gt;actually came from data from 2013 or 2014&lt;/strong&gt;. The data might even be older, as a &lt;a href=&quot;https://www.cnet.com/news/forrester-survey-discovers-that-virtually-no-one-uses-open-source/&quot;&gt;2008 CNET News.com piece&lt;/a&gt; referred to a Gartner prediction:
-    &lt;blockquote&gt;
-      &lt;p&gt;Earlier this year, Gartner’s Mark Driver noted the following: By 2012, 80 percent or more of all commercial software will include elements of open-source technology.&lt;/p&gt;
-      &lt;ul&gt;
-        &lt;li&gt;Source is ComputerWorld UK (broken link), according to &lt;a href=&quot;https://www.cnet.com/news/forrester-survey-discovers-that-virtually-no-one-uses-open-source/&quot;&gt;CNET News.com&lt;/a&gt;&lt;/li&gt;
-      &lt;/ul&gt;
-    &lt;/blockquote&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Without more information, it is hard to decide what to make of, for example, Black Duck’s finding that:
-    &lt;blockquote&gt;
-      &lt;p&gt;On average, open source comprised 36% of the code base in these applications. This is a lower percentage than cited by Forrester, a reflection of the mature application codebases that are typically the focus of Black Duck audits.&lt;/p&gt;
-      &lt;ul&gt;
-        &lt;li&gt;Black Duck’s &lt;a href=&quot;https://www.blackducksoftware.com/open-source-security-risk-analysis-2017&quot;&gt;&lt;em&gt;2017 Open Source Security and Risk Analysis&lt;/em&gt;&lt;/a&gt;, p. 5.&lt;/li&gt;
-      &lt;/ul&gt;
-    &lt;/blockquote&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;Next week:&lt;/strong&gt; Heard that ransomware caused $209 million in losses in Q1 2016? &lt;a href=&quot;/ransomware-epidemic-or-overblown&quot;&gt;It didn’t.&lt;/a&gt;&lt;/p&gt;
-</description>
-        <pubDate>Sun, 23 Apr 2017 07:10:00 -0500</pubDate>
-        <link>http://0.0.0.0:4000/cite-your-sources</link>
-        <guid isPermaLink="true">http://0.0.0.0:4000/cite-your-sources</guid>
-        
-        <category>data science</category>
-        
-        <category>digging into data</category>
-        
-        
-        <category>analysis</category>
-        
-      </item>
-    
-      <item>
-        <title>Two decades</title>
-        <description>&lt;p&gt;February 2017 marked a major anniversary for me: Two straight decades as a journalist and writer.&lt;/p&gt;
-
-&lt;p&gt;With the constant crunch of work and life, I missed even thinking about it until I sat down to write up a blog post.&lt;/p&gt;
-
-&lt;p&gt;In February 1997, I returned from Tokyo and landed in San Francisco to take up a job with what – for a short time (weeks) – was known as PC Week Online. It then became ZDNet News. About 4 years later, the company was bought by CNET, and I joined News.com. While I had worked for a little more than a year as a reporter and editor in Japan, I had worked in engineering for a while before deciding to dedicate myself to writing.&lt;/p&gt;
-
-&lt;p&gt;Journalism has suited me, because I enjoy research. I also enjoy writing, but it has always been a struggle to overcome the blocks that the mind throws in your path. Age and experience has just meant that I understand the challenges more and have found ways to undermine the tricks my subconscious plays on me to sap my productivity.&lt;/p&gt;
-
-&lt;p&gt;Overall, it’s been a great run. I would conservatively estimate that I’ve written at least 4,000 articles and won a half dozen awards. Who knows what the future holds? For now, however, I continue to write.&lt;/p&gt;
-</description>
-        <pubDate>Thu, 13 Apr 2017 14:37:00 -0500</pubDate>
-        <link>http://0.0.0.0:4000/two-decades</link>
-        <guid isPermaLink="true">http://0.0.0.0:4000/two-decades</guid>
-        
-        <category>journalism</category>
-        
-        
-        <category>blog</category>
-        
-      </item>
-    
-      <item>
-        <title>Month in review: No privacy for home computers, and the end of 'trustworthy' ransomware?</title>
-        <description>&lt;p&gt;It’s amazing how quickly a month can pass and how easily a commitment to regularly update your blog goes by the wayside. The past month, I’ve written more than a dozen articles, but two that deal with important events stand out.&lt;/p&gt;
-
-&lt;p&gt;The ruling by Senior U.S. District Judge Henry Coke Morgan Jr. allowing the FBI to use a single warrant to run information gathering tools on the systems of suspected criminals that browse, in the current case, a site with illict images. Judge Morgan &lt;a href=&quot;http://www.eweek.com/security/home-computers-connected-to-the-internet-arent-private-court-rules.html&quot;&gt;even stated&lt;/a&gt; that a warrant is unnecessary because of the type of crime being investigated and because users should have no “objectively reasonable expectation of privacy.”&lt;/p&gt;
-
-&lt;p&gt;I’ll let the judge explain his reasoning:&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;[H]acking is much more prevalent now than it was even nine years ago, and the rise of computer hacking via the Internet has changed the public’s reasonable expectations of privacy. Now, it seems unreasonable to think that a computer connected to the Web is immune from invasion. Indeed, the opposite holds true: In today’s digital world, it appears to be a virtual certainty that computers accessing the Internet can—and eventually will—be hacked.&lt;/p&gt;
-
-  &lt;p&gt;— &lt;cite&gt;Senior U.S. District Judge Henry Coke Morgan Jr.&lt;/cite&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;While the specific ruling applies to a limited subset of information — the IP address and system data of the suspect — the technique could easily be used to gain more intelligence. The Electronic Frontier Foundation believes the ruling will likely be overturned, but it does show that privacy has become a race to the bottom.&lt;/p&gt;
-
-&lt;p&gt;In a similar way, ransomware criminals may be starting their own race to the bottom. They are acting out the Tragedy of the Commons, a parable of individuals making the best short-term decision for themselves, but which has long-term poor consequences for the group. In a statement to local press, Kansas Heart Hospital, a ransomware victim, claimed it had paid a ransom for its data and the criminals asked for more money before turning over the keys to the rest of the hospital’s systems.&lt;/p&gt;
-
-&lt;p&gt;Such double-dipping, if it continues, will &lt;a href=&quot;http://www.pcworld.com/article/3083772/security/how-greed-could-destroy-the-ransomware-racket.html&quot;&gt;erode the trust&lt;/a&gt; that victims have placed in ransomware operators to date, which could spell the beginning of the end for the scam.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;“Home Computers Connected to the Internet Aren’t Private, Court Rules,” &lt;a href=&quot;http://www.eweek.com/security/home-computers-connected-to-the-internet-arent-private-court-rules.html&quot;&gt;&lt;em&gt;eWEEK&lt;/em&gt;&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;“How greed could destroy the ransomware racket,” &lt;a href=&quot;http://www.pcworld.com/article/3083772/security/how-greed-could-destroy-the-ransomware-racket.html&quot;&gt;&lt;em&gt;PCWorld&lt;/em&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;em&gt;Week (Month) in Review is where I highlight articles that I’ve written and that have been published in the last week.&lt;/em&gt;&lt;/p&gt;
-</description>
-        <pubDate>Tue, 05 Jul 2016 10:44:00 -0500</pubDate>
-        <link>http://0.0.0.0:4000/week-in-review-no-privacy</link>
-        <guid isPermaLink="true">http://0.0.0.0:4000/week-in-review-no-privacy</guid>
-        
-        <category>week-in-review</category>
-        
         
         <category>articles</category>
         
