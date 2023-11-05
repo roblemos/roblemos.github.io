@@ -6,62 +6,60 @@
 </description>
     <link>http://0.0.0.0:4000/</link>
     <atom:link href="http://0.0.0.0:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 05 Nov 2023 10:22:28 -0600</pubDate>
-    <lastBuildDate>Sun, 05 Nov 2023 10:22:28 -0600</lastBuildDate>
+    <pubDate>Sun, 05 Nov 2023 11:13:55 -0600</pubDate>
+    <lastBuildDate>Sun, 05 Nov 2023 11:13:55 -0600</lastBuildDate>
     <generator>Jekyll v3.9.0</generator>
     
       <item>
-        <title>So that was interesting...</title>
-        <description>&lt;p&gt;Almost two years ago, I managed to cause my Jekyll-based web site to cough up a
-lung, keel over, and play dead. I planned to get back to it, and by the time I
-did, I couldn’t figure out what I did to it.&lt;/p&gt;
+        <title>Website is back</title>
+        <description>&lt;p&gt;A couple of weekends ago, I moved over my domain and mail infrastructure to new providers, so I decided to use the momentum to get my blog back up and running on GitHub Pages.&lt;/p&gt;
 
-&lt;p&gt;So now I’ve dockerized the entire thing and created a good development pipeline
-to make sure I can roll back any bad changes.&lt;/p&gt;
+&lt;p&gt;The blog is based on the theme Writer, originally from ThemeForest in 2016, but the theme appears to have disappeared.&lt;/p&gt;
+
+&lt;h2 id=&quot;using-docker-for-jekyll&quot;&gt;Using Docker for Jekyll&lt;/h2&gt;
+&lt;p&gt;I try not to download a lot of crud when developing and doing web work, so I really like to run a lot of my code through Docker containers. In this case, I use Jekyll to build and host the site locally, while I work on it, and then push the files in the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_site&lt;/code&gt; directory to GitHub Pages for hosting.&lt;/p&gt;
+
+&lt;p&gt;I do this also with my datascience work as I can then also provide the Dockerfile and docker-compose files to the client so they can easily reproduce any work.&lt;/p&gt;
+
+&lt;h2 id=&quot;four-steps-to-a-more-private-blog&quot;&gt;Four steps to a more private blog&lt;/h2&gt;
+&lt;p&gt;Since I didn’t want to publish my source code for the blog (along with potential development secrets) to the public repository where my blog lives, I needed to do a bit of git-wrangling to make it all work. My process is based on &lt;a href=&quot;https://scriptedtea.com/tech/how-to-deploy-jekyll-to-github/&quot;&gt;an organization and workflow described by Scripted Tea in 2019&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;The basic setup process for setting up the blog is:&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;Download a theme, move any custom files (such as any &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_posts&lt;/code&gt;) to the new directory,&lt;/li&gt;
+  &lt;li&gt;Run the Jekyll server on the files to build the Jekyll site and populate the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_site&lt;/code&gt; files, and&lt;/li&gt;
+  &lt;li&gt;Push the local directory to a repository on GitHub to keep the project organized.&lt;/li&gt;
+  &lt;li&gt;To initialize the blog, I excluded the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_site&lt;/code&gt; directory using .gitignore, and then initialied git within the directory, switched to the gh-pages branch, and cloned that directory with the public blog repo on GitHub.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Essentially, the result of all this is a Git repository within a Git repository, with the web files created by Jekyll synced with the public blog, and the entire project synced with a private GitHub project.&lt;/p&gt;
+
+&lt;h2 id=&quot;the-process-going-forward&quot;&gt;The process going forward&lt;/h2&gt;
+&lt;p&gt;In the future, when I add a post to the blog, I can run Jekyll locally to see the blog in action, and when I’m done with updates and changes, I can move into the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_site&lt;/code&gt; folder and commit the changes, which will populate the blog again.&lt;/p&gt;
+
+&lt;p&gt;Here are the CLI steps:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-{bash}&quot;&gt;$ cd Sites/{blog directory}
+$ docker-compose up    // this generates the Jekyll files and serves them locally
+$ cd _site
+$ git add .
+$ git commit -m &quot;Blog deployment - {date}&quot;
+$ git push origin gh-pages
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;At this point, there is a still a bunch to do to the blog to make it better, but at least I solved the workflow issues, which is half the battle. I have a lot of customizing to do on the theme, as well as making sure all the templates are displaying as they should.&lt;/p&gt;
 </description>
-        <pubDate>Mon, 24 Aug 2020 00:00:00 -0500</pubDate>
-        <link>http://0.0.0.0:4000/now-that-was-interesting</link>
-        <guid isPermaLink="true">http://0.0.0.0:4000/now-that-was-interesting</guid>
+        <pubDate>Fri, 03 Nov 2023 00:00:00 -0500</pubDate>
+        <link>http://0.0.0.0:4000/blog-back-up-and-running</link>
+        <guid isPermaLink="true">http://0.0.0.0:4000/blog-back-up-and-running</guid>
         
+        <category>gtd</category>
         
-      </item>
-    
-      <item>
-        <title>More love for the blog</title>
-        <description>&lt;p&gt;Anyone who has tried to maintain a blog for awhile knows that the marathon of
-writing and focus needed to keep a blog fresh requires a great deal of sustained
-effort. Even so, six months between blog posts is a bit much. So I’m working on
-changing that. (Note, there are other posts on the blog from less than six months
-ago, but that’s because I’ve back posted some older articles.)&lt;/p&gt;
-
-&lt;p&gt;I’ve been working on improving my blog, which runs on the Jekyll static engine,
-by modifying the &lt;a href=&quot;https://github.com/mmistakes/so-simple-theme&quot;&gt;So Simple theme&lt;/a&gt;
-that it uses to do more of what I want and moving it from free hosting as a
-Github project to a running in a Docker container on Digital Ocean.&lt;/p&gt;
-
-&lt;p&gt;Part of my reason for taking on the task is to automate as much of the process as
-possible as I push toward incorporating a DevOps mentality into what I do.
-Once the automation is complete–and likely, by the time this blog is made
-public, it will be complete–it will make it far more likely that I keep up with
-the grind needed to keep the content fresh, because it takes out much of the day-to-day administration of getting posts posted.&lt;/p&gt;
-
-&lt;p&gt;I’ve always thought that writing was hard enough to do when you are getting paid
-for it. In reality, if you are not writing when you are not getting paid for it,
-then perhaps you should not be writing at all.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“A writer is someone for whom writing is more difficult than it is for other people.”&lt;/p&gt;
-  &lt;ul&gt;
-    &lt;li&gt;&lt;cite&gt;Thomas Mann, Essays of Three Decades&lt;/cite&gt;&lt;/li&gt;
-  &lt;/ul&gt;
-&lt;/blockquote&gt;
-</description>
-        <pubDate>Sun, 23 Sep 2018 13:10:00 -0500</pubDate>
-        <link>http://0.0.0.0:4000/more-love-for-blogging</link>
-        <guid isPermaLink="true">http://0.0.0.0:4000/more-love-for-blogging</guid>
+        <category>development</category>
         
         
         <category>blog</category>
+        
+        <category>development</category>
         
       </item>
     
@@ -161,9 +159,7 @@ git push origin master
         <guid isPermaLink="true">http://0.0.0.0:4000/flushing-git-repository</guid>
         
         
-        <category>development</category>
-        
-        <category>techniques</category>
+        <category>development_techniques</category>
         
       </item>
     
@@ -311,6 +307,44 @@ git push origin master
         
         
         <category>blog</category>
+        
+      </item>
+    
+      <item>
+        <title>Month in review: No privacy for home computers, and the end of 'trustworthy' ransomware?</title>
+        <description>&lt;p&gt;It’s amazing how quickly a month can pass and how easily a commitment to regularly update your blog goes by the wayside. The past month, I’ve written more than a dozen articles, but two that deal with important events stand out.&lt;/p&gt;
+
+&lt;p&gt;The ruling by Senior U.S. District Judge Henry Coke Morgan Jr. allowing the FBI to use a single warrant to run information gathering tools on the systems of suspected criminals that browse, in the current case, a site with illict images. Judge Morgan &lt;a href=&quot;http://www.eweek.com/security/home-computers-connected-to-the-internet-arent-private-court-rules.html&quot;&gt;even stated&lt;/a&gt; that a warrant is unnecessary because of the type of crime being investigated and because users should have no “objectively reasonable expectation of privacy.”&lt;/p&gt;
+
+&lt;p&gt;I’ll let the judge explain his reasoning:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;[H]acking is much more prevalent now than it was even nine years ago, and the rise of computer hacking via the Internet has changed the public’s reasonable expectations of privacy. Now, it seems unreasonable to think that a computer connected to the Web is immune from invasion. Indeed, the opposite holds true: In today’s digital world, it appears to be a virtual certainty that computers accessing the Internet can—and eventually will—be hacked.&lt;/p&gt;
+
+  &lt;p&gt;— &lt;cite&gt;Senior U.S. District Judge Henry Coke Morgan Jr.&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;While the specific ruling applies to a limited subset of information — the IP address and system data of the suspect — the technique could easily be used to gain more intelligence. The Electronic Frontier Foundation believes the ruling will likely be overturned, but it does show that privacy has become a race to the bottom.&lt;/p&gt;
+
+&lt;p&gt;In a similar way, ransomware criminals may be starting their own race to the bottom. They are acting out the Tragedy of the Commons, a parable of individuals making the best short-term decision for themselves, but which has long-term poor consequences for the group. In a statement to local press, Kansas Heart Hospital, a ransomware victim, claimed it had paid a ransom for its data and the criminals asked for more money before turning over the keys to the rest of the hospital’s systems.&lt;/p&gt;
+
+&lt;p&gt;Such double-dipping, if it continues, will &lt;a href=&quot;http://www.pcworld.com/article/3083772/security/how-greed-could-destroy-the-ransomware-racket.html&quot;&gt;erode the trust&lt;/a&gt; that victims have placed in ransomware operators to date, which could spell the beginning of the end for the scam.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;“Home Computers Connected to the Internet Aren’t Private, Court Rules,” &lt;a href=&quot;http://www.eweek.com/security/home-computers-connected-to-the-internet-arent-private-court-rules.html&quot;&gt;&lt;em&gt;eWEEK&lt;/em&gt;&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;“How greed could destroy the ransomware racket,” &lt;a href=&quot;http://www.pcworld.com/article/3083772/security/how-greed-could-destroy-the-ransomware-racket.html&quot;&gt;&lt;em&gt;PCWorld&lt;/em&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;em&gt;Week (Month) in Review is where I highlight articles that I’ve written and that have been published in the last week.&lt;/em&gt;&lt;/p&gt;
+</description>
+        <pubDate>Tue, 05 Jul 2016 10:44:00 -0500</pubDate>
+        <link>http://0.0.0.0:4000/week-in-review-no-privacy</link>
+        <guid isPermaLink="true">http://0.0.0.0:4000/week-in-review-no-privacy</guid>
+        
+        <category>week-in-review</category>
+        
+        
+        <category>articles</category>
         
       </item>
     
