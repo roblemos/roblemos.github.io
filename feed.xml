@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Robert Lemos</title>
+    <description>Technology journalist/data and dev geek
+</description>
+    <link>http://0.0.0.0:4000/</link>
+    <atom:link href="http://0.0.0.0:4000/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sun, 05 Nov 2023 10:22:28 -0600</pubDate>
+    <lastBuildDate>Sun, 05 Nov 2023 10:22:28 -0600</lastBuildDate>
+    <generator>Jekyll v3.9.0</generator>
+    
+      <item>
+        <title>So that was interesting...</title>
+        <description>&lt;p&gt;Almost two years ago, I managed to cause my Jekyll-based web site to cough up a
+lung, keel over, and play dead. I planned to get back to it, and by the time I
+did, I couldn’t figure out what I did to it.&lt;/p&gt;
+
+&lt;p&gt;So now I’ve dockerized the entire thing and created a good development pipeline
+to make sure I can roll back any bad changes.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 24 Aug 2020 00:00:00 -0500</pubDate>
+        <link>http://0.0.0.0:4000/now-that-was-interesting</link>
+        <guid isPermaLink="true">http://0.0.0.0:4000/now-that-was-interesting</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>More love for the blog</title>
+        <description>&lt;p&gt;Anyone who has tried to maintain a blog for awhile knows that the marathon of
+writing and focus needed to keep a blog fresh requires a great deal of sustained
+effort. Even so, six months between blog posts is a bit much. So I’m working on
+changing that. (Note, there are other posts on the blog from less than six months
+ago, but that’s because I’ve back posted some older articles.)&lt;/p&gt;
+
+&lt;p&gt;I’ve been working on improving my blog, which runs on the Jekyll static engine,
+by modifying the &lt;a href=&quot;https://github.com/mmistakes/so-simple-theme&quot;&gt;So Simple theme&lt;/a&gt;
+that it uses to do more of what I want and moving it from free hosting as a
+Github project to a running in a Docker container on Digital Ocean.&lt;/p&gt;
+
+&lt;p&gt;Part of my reason for taking on the task is to automate as much of the process as
+possible as I push toward incorporating a DevOps mentality into what I do.
+Once the automation is complete–and likely, by the time this blog is made
+public, it will be complete–it will make it far more likely that I keep up with
+the grind needed to keep the content fresh, because it takes out much of the day-to-day administration of getting posts posted.&lt;/p&gt;
+
+&lt;p&gt;I’ve always thought that writing was hard enough to do when you are getting paid
+for it. In reality, if you are not writing when you are not getting paid for it,
+then perhaps you should not be writing at all.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“A writer is someone for whom writing is more difficult than it is for other people.”&lt;/p&gt;
+  &lt;ul&gt;
+    &lt;li&gt;&lt;cite&gt;Thomas Mann, Essays of Three Decades&lt;/cite&gt;&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/blockquote&gt;
+</description>
+        <pubDate>Sun, 23 Sep 2018 13:10:00 -0500</pubDate>
+        <link>http://0.0.0.0:4000/more-love-for-blogging</link>
+        <guid isPermaLink="true">http://0.0.0.0:4000/more-love-for-blogging</guid>
+        
+        
+        <category>blog</category>
+        
+      </item>
+    
+      <item>
+        <title>Containers under attack: What your app sec team needs to know</title>
+        <description>&lt;p&gt;As a network-penetration expert, Wesley McGrew regularly runs red-team exercises against the networks of his clients, and increasingly he is seeing containerized applications being targeted.&lt;/p&gt;
+
+&lt;p&gt;While containers bring the benefits of standardization, isolation, and the principle of least privilege to the development of cloud-based software, they can be a boon for attackers. Containerized applications don’t necessarily introduce any new vulnerabilities, but they do present additional attack vectors.&lt;/p&gt;
+
+&lt;p&gt;Continued at: &lt;a href=&quot;https://techbeacon.com/containers-under-attack-what-your-app-sec-team-needs-know&quot;&gt;&lt;em&gt;Containers under attack: What your app sec team needs to know&lt;/em&gt; — TechBeacon&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Wed, 05 Sep 2018 00:00:00 -0500</pubDate>
+        <link>http://0.0.0.0:4000/containers-under-attack</link>
+        <guid isPermaLink="true">http://0.0.0.0:4000/containers-under-attack</guid>
+        
+        
+        <category>techbeacon</category>
+        
+        <category>devops</category>
+        
+        <category>cybersecurity</category>
+        
+        <category>articles</category>
+        
+      </item>
+    
+      <item>
+        <title>Overwhelmed by security data? Science to the rescue</title>
+        <description>&lt;p&gt;When Charles Givre, lead data scientist at Deutsche Bank, teaches security teams about the benefits of applying security data science techniques, he often focuses on a common malware tactic: domain-generation algorithms.&lt;/p&gt;
+
+&lt;p&gt;Used by malicious programs to establish contact with a command-and-control server, domain-generation algorithms, or DGAs, create a list of domain names as potential contact points using pseudo-random algorithms. The domains change often – usually daily – and can look random or use random words.&lt;/p&gt;
+
+&lt;p&gt;For humans, finding a single computer’s call to a random domain is a difficult problem. Yet data analysis can quickly call out the anomalous communications.&lt;/p&gt;
+
+&lt;p&gt;…&lt;/p&gt;
+
+&lt;p&gt;Continued at: &lt;a href=&quot;https://searchsecurity.techtarget.com/feature/Overwhelmed-by-security-data-Science-to-the-rescue&quot;&gt;&lt;em&gt;Overwhelmed by security data? Science to the rescue&lt;/em&gt; — TechTarget&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Wed, 15 Aug 2018 00:00:00 -0500</pubDate>
+        <link>http://0.0.0.0:4000/overwhelmed-by-security-data</link>
+        <guid isPermaLink="true">http://0.0.0.0:4000/overwhelmed-by-security-data</guid>
+        
+        
+        <category>techtarget</category>
+        
+        <category>articles</category>
+        
+      </item>
+    
+      <item>
+        <title>The Race to Build a Cybersecurity Workforce</title>
+        <description>&lt;p&gt;Secureworks can’t hire cybersecurity pros fast enough.&lt;/p&gt;
+
+&lt;p&gt;The Atlanta-based firm that helps 4,400 companies worldwide fend off cyberattacks has about 140 openings at more than a dozen locations globally. Yet filling those positions has become a grueling—and often impossible—task. The company goes through 12 to 32 interviews just to fill a single analyst position, and the time it takes to find the right candidate continues to lengthen, says Terry McGraw, vice president of global cyberthreat analysis for Secureworks.&lt;/p&gt;
+
+&lt;p&gt;…&lt;/p&gt;
+
+&lt;p&gt;Continued at: &lt;a href=&quot;https://www.cxo-magazine.com/report/the-race-to-build-a-cyber-workforce/&quot;&gt;&lt;em&gt;The Race to Build a Cybersecurity Workforce&lt;/em&gt; — CXO Magazine&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Mon, 19 Mar 2018 07:10:00 -0500</pubDate>
+        <link>http://0.0.0.0:4000/cybersecurity-workforce</link>
+        <guid isPermaLink="true">http://0.0.0.0:4000/cybersecurity-workforce</guid>
+        
+        
+        <category>features</category>
+        
+        <category>articles</category>
+        
+      </item>
+    
+      <item>
+        <title>Some Git techniques</title>
+        <description>&lt;p&gt;Here are some techniques that I handled.&lt;/p&gt;
+
+&lt;h2 id=&quot;1-flushing-the-cache&quot;&gt;1. Flushing the cache&lt;/h2&gt;
+&lt;p&gt;I had some ‘.’ files that had replicated to the repository on GitHub, so I had to figure out how to flush them.&lt;/p&gt;
+
+&lt;p&gt;This &lt;a href=&quot;https://eric.blog/2014/05/11/remove-files-from-git-addingupdating-gitignore/&quot;&gt;technique came up in a search&lt;/a&gt; and basically flushes the repository and then puts everything back.&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;git rm -r --cached .
+git add -A
+git commit -am 'Removing ignored files'
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;2-the-best-way-to-merge-a-branch-with-master&quot;&gt;2. The best way to merge a branch with Master&lt;/h2&gt;
+
+&lt;p&gt;The best – and safest – way to merge a branch with master.&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;git checkout master
+git pull origin master
+git merge test
+git push origin master
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+</description>
+        <pubDate>Sun, 18 Mar 2018 16:00:00 -0500</pubDate>
+        <link>http://0.0.0.0:4000/flushing-git-repository</link>
+        <guid isPermaLink="true">http://0.0.0.0:4000/flushing-git-repository</guid>
+        
+        
+        <category>development</category>
+        
+        <category>techniques</category>
+        
+      </item>
+    
+      <item>
+        <title>Changes to the site</title>
+        <description>&lt;p&gt;This year has been an exciting one so far. I’ve tackled a number of data-analysis projects, including investigating data on the cybersecurity workforce shortfall and a deep dive into the National Vulnerability Database.&lt;/p&gt;
+
+&lt;p&gt;Some of the cybersecurity workforce data ended up in &lt;a href=&quot;http://www.cxo-magazine.com/reports/closing-the-cybersecurity-talent-gap/the-race-to-build-a-cyber-workforce&quot;&gt;my feature article for CXO Magazine&lt;/a&gt;, a publication of Northeastern University.&lt;/p&gt;
+
+&lt;p&gt;I’m working on a couple other data analysis projects. Some will end up in reports, and I will post more here when they are published.&lt;/p&gt;
+
+&lt;p&gt;I’m also working on revising all my Web sites, so expect more changes here.&lt;/p&gt;
+</description>
+        <pubDate>Sun, 18 Mar 2018 00:00:00 -0500</pubDate>
+        <link>http://0.0.0.0:4000/major-changes-coming</link>
+        <guid isPermaLink="true">http://0.0.0.0:4000/major-changes-coming</guid>
+        
+        
+        <category>blog</category>
+        
+      </item>
+    
+      <item>
+        <title>Recent ransomware attacks: Is it an epidemic or overblown?</title>
+        <description>&lt;p&gt;Major news organizations stated that cybercriminals had raked in more than $209 million from ransomware victims in the first quarter of 2016, more than an eight-fold increase compared to the entire previous year. Citing data from the FBI, CNN predicted that 2016 would see cybercriminals collect more than $1 billion in profits from recent ransomware attacks by the end of the year. Both the Los Angeles Times and Reuters cited the $209 million figure, the Times calling it profits and Reuters portraying it as damages.&lt;/p&gt;
+
+&lt;p&gt;The origin of that number is a mystery, however.&lt;/p&gt;
+
+&lt;p&gt;Continued at: &lt;a href=&quot;https://searchsecurity.techtarget.com/feature/Recent-ransomware-attacks-Is-it-an-epidemic-or-overblown&quot;&gt;&lt;em&gt;Recent ransomware attacks: Is it an epidemic or overblown?&lt;/em&gt; — TechTarget&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Mon, 02 Oct 2017 07:10:00 -0500</pubDate>
+        <link>http://0.0.0.0:4000/ransomware-epidemic-or-overblown</link>
+        <guid isPermaLink="true">http://0.0.0.0:4000/ransomware-epidemic-or-overblown</guid>
+        
+        
+        <category>techtarget</category>
+        
+        <category>articles</category>
+        
+      </item>
+    
+      <item>
+        <title>Cite your sources</title>
+        <description>&lt;p&gt;Every week – if not every day – I come across reports that quote a data point with very little information about the source. Here is a recent one (the data point is also in the press release):&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;A recent Forrester Research report called attention to open source’s preeminence in application development, with custom code comprising only 10% to 20% of applications.&lt;/p&gt;
+  &lt;ul&gt;
+    &lt;li&gt;Black Duck’s &lt;a href=&quot;https://www.blackducksoftware.com/open-source-security-risk-analysis-2017&quot;&gt;&lt;em&gt;2017 Open Source Security and Risk Analysis&lt;/em&gt;&lt;/a&gt;, p. 5.&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;The first problem I have with the data point is that there is no citation or link for the source of the data. The second problem I have is that – and this took far more digging than is warranted – the 10 to 20 percent number is &lt;strong&gt;not even from Forrester Research&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;Now, this is not about picking on one company. Both in my role as a journalist, and as a data scientist helping companies analyze data to produce internal and public reports, I often run into this problem. I’m hoping by highlighting the issues that companies will be more careful.&lt;/p&gt;
+
+&lt;p&gt;So lets track this one back. And a note on terminology: If the paper gives a full citation, then I will use the verb “cite;” if they give vague information, I will describe that as “sourcing;” and if they give no information, I will label that “unsourced.”&lt;/p&gt;
+
+&lt;h3 id=&quot;1-black-ducks-report-sourced-a-forrester-report-but-with-no-citation&quot;&gt;1. Black Duck’s report sourced a Forrester report but with no citation&lt;/h3&gt;
+&lt;p&gt;While the press release used the data point without a source, the report itself referred to “Forrester Research.” After a few searches, I found &lt;a href=&quot;https://www.bsminfo.com/doc/forrester-wave-report-highlights-the-clear-prominence-of-open-source-0001&quot;&gt;this March 2017 article&lt;/a&gt;, which mentions the same data point and links to the &lt;a href=&quot;https://www.forrester.com/report/The+Forrester+Wave+Software+Composition+Analysis+Q1+2017/-/E-RES136463&quot;&gt;&lt;em&gt;The Forrester Wave™: Software Composition Analysis, Q1 2017&lt;/em&gt;&lt;/a&gt;. (Note: The article above essentially rewrites &lt;a href=&quot;http://www.businesswire.com/news/home/20170223006024/en/Open-Source-Security-Provider-Black-Duck-%E2%80%9CLeader%E2%80%9D&quot;&gt;a press release&lt;/a&gt; from a couple weeks before.)&lt;/p&gt;
+
+&lt;h3 id=&quot;2-citing-a-non-public-report-generally-does-not-help&quot;&gt;2. Citing a non-public report generally does not help&lt;/h3&gt;
+&lt;p&gt;The Forrester Report lists for $2,495. However, these reports are generally available publicly. Searching for the title and PDF filetype redirected me to &lt;a href=&quot;https://www.blackducksoftware.com/forrester-software-composition-analysis-q1-2017&quot;&gt;a Black Duck landing page&lt;/a&gt; that hosted the Forrester report. Turns out, Black Duck sponsored the Forrester report that named them a leader in the industry. This is not uncommon for any industry report.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;In their haste to create applications, developers use open source components as their foundation, creating applications using only 10% to 20% new code.&lt;/p&gt;
+  &lt;ul&gt;
+    &lt;li&gt;&lt;a href=&quot;https://www.blackducksoftware.com/forrester-software-composition-analysis-q1-2017&quot;&gt;&lt;em&gt;The Forrester Wave™: Software Composition Analysis, Q1 2017&lt;/em&gt;&lt;/a&gt;&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&quot;3-the-forrester-report-actually-cites-sonatype-research&quot;&gt;3. The Forrester report actually cites Sonatype research&lt;/h3&gt;
+&lt;p&gt;So, here’s the rub: The Forrester report is not the source for the data point. The report cites a Sonatype report from 2015 &lt;a href=&quot;http://cdn2.hubspot.net/hubfs/1958393/White_Papers/2015_State_of_the_Software_Supply_Chain_Report-.pdf?t=1466775053631&quot;&gt;with a link&lt;/a&gt;. (Kudos to Forrester Research for the link.)&lt;/p&gt;
+
+&lt;p&gt;One problem, however, is that finding the number in the 33-page report is not easy. Searching for “10 to 20 percent” doesn’t return anything, even searching through all the “10” entries does not work either. The reason is that the original data point is:&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;[I]n the software supply chain, where an average of 106 components comprise 80-90% of the total application, few organizations have visibility into what components were used and where.&lt;/p&gt;
+  &lt;ul&gt;
+    &lt;li&gt;&lt;a href=&quot;http://cdn2.hubspot.net/hubfs/1958393/White_Papers/2015_State_of_the_Software_Supply_Chain_Report-.pdf?t=1466775053631&quot;&gt;2015 State of the Software Supply Chain Report&lt;/a&gt;, p. 22.&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;The point is also mentioned on page 5. (It was around this point that I decided this would make a good blog post.)&lt;/p&gt;
+
+&lt;p&gt;The trail did not stop here, of course. Sonatype cited older research in both instances.&lt;/p&gt;
+
+&lt;h3 id=&quot;4-sonatype-report-cites-ongoing-application-health-check-data-circa-2013-2014&quot;&gt;4. Sonatype report cites ongoing Application Health Check data (circa 2013-2014)&lt;/h3&gt;
+&lt;p&gt;The 33-page Sonatype report cited (in an endnote) its own data: For the citation on page 5, “Sonatype research including Application Health Checks and Open Source surveys, 2013 – 2014,” and for the citation on page 22, “Sonatype, 2014 analysis of Application Health Check results.”&lt;/p&gt;
+
+&lt;p&gt;Unfortunately, none of the Application Health Check results are contained in a standalone report. Some results are quoted in a slide deck, or what appears to be the notes to a slide deck.&lt;/p&gt;
+
+&lt;p&gt;While there is no reason to doubt the veracity of the data, discovering its provenance was certainly a chore.&lt;/p&gt;
+
+&lt;p&gt;Two final points:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;A data point that was supposed to be “recent” &lt;strong&gt;actually came from data from 2013 or 2014&lt;/strong&gt;. The data might even be older, as a &lt;a href=&quot;https://www.cnet.com/news/forrester-survey-discovers-that-virtually-no-one-uses-open-source/&quot;&gt;2008 CNET News.com piece&lt;/a&gt; referred to a Gartner prediction:
+    &lt;blockquote&gt;
+      &lt;p&gt;Earlier this year, Gartner’s Mark Driver noted the following: By 2012, 80 percent or more of all commercial software will include elements of open-source technology.&lt;/p&gt;
+      &lt;ul&gt;
+        &lt;li&gt;Source is ComputerWorld UK (broken link), according to &lt;a href=&quot;https://www.cnet.com/news/forrester-survey-discovers-that-virtually-no-one-uses-open-source/&quot;&gt;CNET News.com&lt;/a&gt;&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Without more information, it is hard to decide what to make of, for example, Black Duck’s finding that:
+    &lt;blockquote&gt;
+      &lt;p&gt;On average, open source comprised 36% of the code base in these applications. This is a lower percentage than cited by Forrester, a reflection of the mature application codebases that are typically the focus of Black Duck audits.&lt;/p&gt;
+      &lt;ul&gt;
+        &lt;li&gt;Black Duck’s &lt;a href=&quot;https://www.blackducksoftware.com/open-source-security-risk-analysis-2017&quot;&gt;&lt;em&gt;2017 Open Source Security and Risk Analysis&lt;/em&gt;&lt;/a&gt;, p. 5.&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Next week:&lt;/strong&gt; Heard that ransomware caused $209 million in losses in Q1 2016? &lt;a href=&quot;/ransomware-epidemic-or-overblown&quot;&gt;It didn’t.&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Sun, 23 Apr 2017 07:10:00 -0500</pubDate>
+        <link>http://0.0.0.0:4000/cite-your-sources</link>
+        <guid isPermaLink="true">http://0.0.0.0:4000/cite-your-sources</guid>
+        
+        <category>data science</category>
+        
+        <category>digging into data</category>
+        
+        
+        <category>analysis</category>
+        
+      </item>
+    
+      <item>
+        <title>Two decades</title>
+        <description>&lt;p&gt;February 2017 marked a major anniversary for me: Two straight decades as a journalist and writer.&lt;/p&gt;
+
+&lt;p&gt;With the constant crunch of work and life, I missed even thinking about it until I sat down to write up a blog post.&lt;/p&gt;
+
+&lt;p&gt;In February 1997, I returned from Tokyo and landed in San Francisco to take up a job with what – for a short time (weeks) – was known as PC Week Online. It then became ZDNet News. About 4 years later, the company was bought by CNET, and I joined News.com. While I had worked for a little more than a year as a reporter and editor in Japan, I had worked in engineering for a while before deciding to dedicate myself to writing.&lt;/p&gt;
+
+&lt;p&gt;Journalism has suited me, because I enjoy research. I also enjoy writing, but it has always been a struggle to overcome the blocks that the mind throws in your path. Age and experience has just meant that I understand the challenges more and have found ways to undermine the tricks my subconscious plays on me to sap my productivity.&lt;/p&gt;
+
+&lt;p&gt;Overall, it’s been a great run. I would conservatively estimate that I’ve written at least 4,000 articles and won a half dozen awards. Who knows what the future holds? For now, however, I continue to write.&lt;/p&gt;
+</description>
+        <pubDate>Thu, 13 Apr 2017 14:37:00 -0500</pubDate>
+        <link>http://0.0.0.0:4000/two-decades</link>
+        <guid isPermaLink="true">http://0.0.0.0:4000/two-decades</guid>
+        
+        <category>journalism</category>
+        
+        
+        <category>blog</category>
+        
+      </item>
+    
+  </channel>
+</rss>
