@@ -6,8 +6,8 @@
 </description>
     <link>http://0.0.0.0:4000/</link>
     <atom:link href="http://0.0.0.0:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 11 Nov 2023 13:06:55 -0600</pubDate>
-    <lastBuildDate>Sat, 11 Nov 2023 13:06:55 -0600</lastBuildDate>
+    <pubDate>Sat, 11 Nov 2023 13:25:19 -0600</pubDate>
+    <lastBuildDate>Sat, 11 Nov 2023 13:25:19 -0600</lastBuildDate>
     <generator>Jekyll v3.9.0</generator>
     
       <item>
@@ -24,8 +24,8 @@
 &lt;p&gt;&lt;em&gt;The high-performance and resilient platforms satisfy critical roles, but software complexity and the graying of the specialist workforce are creating security challenges. (7 November 2023)&lt;/em&gt;&lt;/p&gt;
 </description>
         <pubDate>Fri, 10 Nov 2023 09:44:00 -0600</pubDate>
-        <link>http://0.0.0.0:4000/week-in-review-45</link>
-        <guid isPermaLink="true">http://0.0.0.0:4000/week-in-review-45</guid>
+        <link>http://0.0.0.0:4000/2023/11/10/week-in-review-45/</link>
+        <guid isPermaLink="true">http://0.0.0.0:4000/2023/11/10/week-in-review-45/</guid>
         
         <category>week-in-review</category>
         
@@ -73,8 +73,8 @@ $ git push origin gh-pages
 &lt;p&gt;At this point, there is a still a bunch to do to the blog to make it better, but at least I solved the workflow issues, which is half the battle. I have a lot of customizing to do on the theme, as well as making sure all the templates are displaying as they should.&lt;/p&gt;
 </description>
         <pubDate>Sun, 05 Nov 2023 00:00:00 -0500</pubDate>
-        <link>http://0.0.0.0:4000/blog-back-up-and-running</link>
-        <guid isPermaLink="true">http://0.0.0.0:4000/blog-back-up-and-running</guid>
+        <link>http://0.0.0.0:4000/2023/11/05/blog-back-up-and-running/</link>
+        <guid isPermaLink="true">http://0.0.0.0:4000/2023/11/05/blog-back-up-and-running/</guid>
         
         <category>gtd</category>
         
@@ -99,8 +99,8 @@ $ git push origin gh-pages
 
 </description>
         <pubDate>Fri, 03 Nov 2023 10:44:00 -0500</pubDate>
-        <link>http://0.0.0.0:4000/week-in-review-44</link>
-        <guid isPermaLink="true">http://0.0.0.0:4000/week-in-review-44</guid>
+        <link>http://0.0.0.0:4000/2023/11/03/week-in-review-44/</link>
+        <guid isPermaLink="true">http://0.0.0.0:4000/2023/11/03/week-in-review-44/</guid>
         
         <category>week-in-review</category>
         
@@ -120,8 +120,8 @@ $ git push origin gh-pages
 &lt;p&gt;&lt;em&gt;Despite warnings that sending one-time passwords via text messages is a flawed security measure, companies continue to roll out the approach, especially in consumer-facing applications. (23 October 2023)&lt;/em&gt;&lt;/p&gt;
 </description>
         <pubDate>Fri, 27 Oct 2023 10:44:00 -0500</pubDate>
-        <link>http://0.0.0.0:4000/week-in-review-43</link>
-        <guid isPermaLink="true">http://0.0.0.0:4000/week-in-review-43</guid>
+        <link>http://0.0.0.0:4000/2023/10/27/week-in-review-43/</link>
+        <guid isPermaLink="true">http://0.0.0.0:4000/2023/10/27/week-in-review-43/</guid>
         
         <category>week-in-review</category>
         
@@ -141,8 +141,8 @@ $ git push origin gh-pages
 &lt;p&gt;&lt;em&gt;When attackers find vulnerabilities in software used by service providers with dozens or hundreds of clients, the impact of a breach can quickly spiral out of control. (18 October 2023)&lt;/em&gt;&lt;/p&gt;
 </description>
         <pubDate>Fri, 20 Oct 2023 10:44:00 -0500</pubDate>
-        <link>http://0.0.0.0:4000/week-in-review-42</link>
-        <guid isPermaLink="true">http://0.0.0.0:4000/week-in-review-42</guid>
+        <link>http://0.0.0.0:4000/2023/10/20/week-in-review-42/</link>
+        <guid isPermaLink="true">http://0.0.0.0:4000/2023/10/20/week-in-review-42/</guid>
         
         <category>week-in-review</category>
         
@@ -160,8 +160,8 @@ $ git push origin gh-pages
 &lt;p&gt;Continued at: &lt;a href=&quot;https://techbeacon.com/containers-under-attack-what-your-app-sec-team-needs-know&quot;&gt;&lt;em&gt;Containers under attack: What your app sec team needs to know&lt;/em&gt; — TechBeacon&lt;/a&gt;&lt;/p&gt;
 </description>
         <pubDate>Wed, 05 Sep 2018 00:00:00 -0500</pubDate>
-        <link>http://0.0.0.0:4000/containers-under-attack</link>
-        <guid isPermaLink="true">http://0.0.0.0:4000/containers-under-attack</guid>
+        <link>http://0.0.0.0:4000/2018/09/05/containers-under-attack/</link>
+        <guid isPermaLink="true">http://0.0.0.0:4000/2018/09/05/containers-under-attack/</guid>
         
         
         <category>techbeacon</category>
@@ -187,8 +187,8 @@ $ git push origin gh-pages
 &lt;p&gt;Continued at: &lt;a href=&quot;https://searchsecurity.techtarget.com/feature/Overwhelmed-by-security-data-Science-to-the-rescue&quot;&gt;&lt;em&gt;Overwhelmed by security data? Science to the rescue&lt;/em&gt; — TechTarget&lt;/a&gt;&lt;/p&gt;
 </description>
         <pubDate>Wed, 15 Aug 2018 00:00:00 -0500</pubDate>
-        <link>http://0.0.0.0:4000/overwhelmed-by-security-data</link>
-        <guid isPermaLink="true">http://0.0.0.0:4000/overwhelmed-by-security-data</guid>
+        <link>http://0.0.0.0:4000/2018/08/15/overwhelmed-by-security-data/</link>
+        <guid isPermaLink="true">http://0.0.0.0:4000/2018/08/15/overwhelmed-by-security-data/</guid>
         
         
         <category>techtarget</category>
@@ -208,8 +208,8 @@ $ git push origin gh-pages
 &lt;p&gt;Continued at: &lt;a href=&quot;https://www.cxo-magazine.com/report/the-race-to-build-a-cyber-workforce/&quot;&gt;&lt;em&gt;The Race to Build a Cybersecurity Workforce&lt;/em&gt; — CXO Magazine&lt;/a&gt;&lt;/p&gt;
 </description>
         <pubDate>Mon, 19 Mar 2018 07:10:00 -0500</pubDate>
-        <link>http://0.0.0.0:4000/cybersecurity-workforce</link>
-        <guid isPermaLink="true">http://0.0.0.0:4000/cybersecurity-workforce</guid>
+        <link>http://0.0.0.0:4000/2018/03/19/cybersecurity-workforce/</link>
+        <guid isPermaLink="true">http://0.0.0.0:4000/2018/03/19/cybersecurity-workforce/</guid>
         
         
         <category>features</category>
@@ -243,8 +243,8 @@ git push origin master
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 </description>
         <pubDate>Sun, 18 Mar 2018 16:00:00 -0500</pubDate>
-        <link>http://0.0.0.0:4000/flushing-git-repository</link>
-        <guid isPermaLink="true">http://0.0.0.0:4000/flushing-git-repository</guid>
+        <link>http://0.0.0.0:4000/2018/03/18/flushing-git-repository/</link>
+        <guid isPermaLink="true">http://0.0.0.0:4000/2018/03/18/flushing-git-repository/</guid>
         
         
         <category>development_techniques</category>
@@ -262,8 +262,8 @@ git push origin master
 &lt;p&gt;I’m also working on revising all my Web sites, so expect more changes here.&lt;/p&gt;
 </description>
         <pubDate>Sun, 18 Mar 2018 00:00:00 -0500</pubDate>
-        <link>http://0.0.0.0:4000/major-changes-coming</link>
-        <guid isPermaLink="true">http://0.0.0.0:4000/major-changes-coming</guid>
+        <link>http://0.0.0.0:4000/2018/03/18/major-changes-coming/</link>
+        <guid isPermaLink="true">http://0.0.0.0:4000/2018/03/18/major-changes-coming/</guid>
         
         
         <category>blog</category>
