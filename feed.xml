@@ -6,9 +6,33 @@
 </description>
     <link>http://0.0.0.0:4000/</link>
     <atom:link href="http://0.0.0.0:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 05 Nov 2023 13:21:45 -0600</pubDate>
-    <lastBuildDate>Sun, 05 Nov 2023 13:21:45 -0600</lastBuildDate>
+    <pubDate>Sat, 11 Nov 2023 13:06:55 -0600</pubDate>
+    <lastBuildDate>Sat, 11 Nov 2023 13:06:55 -0600</lastBuildDate>
     <generator>Jekyll v3.9.0</generator>
+    
+      <item>
+        <title>Week 45 in Review: Mainframes, AI, and 'Shields Ready'</title>
+        <description>&lt;p&gt;My articles this weeks spanned the seemingly old (mainframes), the seemingly new (vulnerability-fixing AIs), and the never-ending effort to stop bad guys, this time with a focus on critical infrastructure.&lt;/p&gt;
+
+&lt;h2 id=&quot;shields-ready-critical-infrastructure-initiative-addresses-inevitable-cyberattacks--dark-reading&quot;&gt;&lt;a href=&quot;https://www.darkreading.com/ics-ot/shields-ready-initiative-inevitable-cyberattacks&quot;&gt;‘Shields Ready’ Critical Infrastructure Initiative Addresses Inevitable Cyberattacks | Dark Reading&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;em&gt;A cyberattack is coming, disasters are certain, and the US government wants critical infrastructure firms ready to handle any disruption. Welcome to Shields Ready. (10 November 2023)&lt;/em&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;first-wave-of-vulnerability-fixing-ais-available-for-developers--dark-reading&quot;&gt;&lt;a href=&quot;https://www.darkreading.com/emerging-tech/first-wave-vulnerability-fixing-ai-available-developers&quot;&gt;First Wave of Vulnerability-Fixing AIs Available for Developers | Dark Reading&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;em&gt;GitHub joins a handful of startups and established firms in the market, but all the products are essentially “caveat developer” — let the developer beware. (9 November 2023)&lt;/em&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;software-complexity-bedevils-mainframe-security--dark-reading&quot;&gt;&lt;a href=&quot;https://www.darkreading.com/dr-tech/software-complexity-bedevils-mainframe-security&quot;&gt;Software Complexity Bedevils Mainframe Security | Dark Reading&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;em&gt;The high-performance and resilient platforms satisfy critical roles, but software complexity and the graying of the specialist workforce are creating security challenges. (7 November 2023)&lt;/em&gt;&lt;/p&gt;
+</description>
+        <pubDate>Fri, 10 Nov 2023 09:44:00 -0600</pubDate>
+        <link>http://0.0.0.0:4000/week-in-review-45</link>
+        <guid isPermaLink="true">http://0.0.0.0:4000/week-in-review-45</guid>
+        
+        <category>week-in-review</category>
+        
+        
+        <category>articles</category>
+        
+      </item>
     
       <item>
         <title>Website is back</title>
@@ -243,25 +267,6 @@ git push origin master
         
         
         <category>blog</category>
-        
-      </item>
-    
-      <item>
-        <title>Recent ransomware attacks: Is it an epidemic or overblown?</title>
-        <description>&lt;p&gt;Major news organizations stated that cybercriminals had raked in more than $209 million from ransomware victims in the first quarter of 2016, more than an eight-fold increase compared to the entire previous year. Citing data from the FBI, CNN predicted that 2016 would see cybercriminals collect more than $1 billion in profits from recent ransomware attacks by the end of the year. Both the Los Angeles Times and Reuters cited the $209 million figure, the Times calling it profits and Reuters portraying it as damages.&lt;/p&gt;
-
-&lt;p&gt;The origin of that number is a mystery, however.&lt;/p&gt;
-
-&lt;p&gt;Continued at: &lt;a href=&quot;https://searchsecurity.techtarget.com/feature/Recent-ransomware-attacks-Is-it-an-epidemic-or-overblown&quot;&gt;&lt;em&gt;Recent ransomware attacks: Is it an epidemic or overblown?&lt;/em&gt; — TechTarget&lt;/a&gt;&lt;/p&gt;
-</description>
-        <pubDate>Mon, 02 Oct 2017 07:10:00 -0500</pubDate>
-        <link>http://0.0.0.0:4000/ransomware-epidemic-or-overblown</link>
-        <guid isPermaLink="true">http://0.0.0.0:4000/ransomware-epidemic-or-overblown</guid>
-        
-        
-        <category>techtarget</category>
-        
-        <category>articles</category>
         
       </item>
     
