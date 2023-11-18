@@ -6,9 +6,33 @@
 </description>
     <link>http://0.0.0.0:4000/</link>
     <atom:link href="http://0.0.0.0:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 11 Nov 2023 13:25:19 -0600</pubDate>
-    <lastBuildDate>Sat, 11 Nov 2023 13:25:19 -0600</lastBuildDate>
+    <pubDate>Sat, 18 Nov 2023 13:26:42 -0600</pubDate>
+    <lastBuildDate>Sat, 18 Nov 2023 13:26:42 -0600</lastBuildDate>
     <generator>Jekyll v3.9.0</generator>
+    
+      <item>
+        <title>Week 46 in Review: Molerats Change Tactics, Flaws in AI Tools, Developers Under Attack</title>
+        <description>&lt;p&gt;This week I covered the Molerats group’s adoption of a more advanced payload for its espionage campaign, more than dozen vulnerabilities found in an handful of popular AI tools, and a README feature on the targeting of developers through the software supply chain.&lt;/p&gt;
+
+&lt;h2 id=&quot;unpatched-critical-vulnerabilities-open-ai-models-to-takeover--dark-reading&quot;&gt;&lt;a href=&quot;https://www.darkreading.com/vulnerabilities-threats/unpatched-critical-vulnerabilities-ai-models-takeover&quot;&gt;Unpatched Critical Vulnerabilities Open AI Models to Takeover | Dark Reading&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;em&gt;The security holes can allow server takeover, information theft, model poisoning, and more. (16 November 2023)&lt;/em&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;attackers-see-developers-as-low-hanging-fruit--readmesecurity&quot;&gt;&lt;a href=&quot;https://readme.synack.com/attackers-see-developers-as-low-hanging-fruit&quot;&gt;Attackers see developers as low-hanging fruit | README.security&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;em&gt;Developers must be increasingly wary of actively malicious code that makes its way into their software supply chains. (15 November 2023)&lt;/em&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;molerats-group-wields-custom-cybertool-to-steal-secrets-in-the-middle-east--dark-reading&quot;&gt;&lt;a href=&quot;https://www.darkreading.com/dr-global/molerats-group-wields-custom-cyber-tool-to-steal-secrets-in-middle-east&quot;&gt;Molerats Group Wields Custom Cybertool to Steal Secrets in the Middle East | Dark Reading&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;em&gt;The so-called TA402 group continues to focus on cyber espionage against government agencies with the “IronWInd” malware. (14 November 2023)&lt;/em&gt;&lt;/p&gt;
+</description>
+        <pubDate>Fri, 17 Nov 2023 15:00:00 -0600</pubDate>
+        <link>http://0.0.0.0:4000/2023/11/17/week-in-review-46/</link>
+        <guid isPermaLink="true">http://0.0.0.0:4000/2023/11/17/week-in-review-46/</guid>
+        
+        <category>week-in-review</category>
+        
+        
+        <category>articles</category>
+        
+      </item>
     
       <item>
         <title>Week 45 in Review: Mainframes, AI, and 'Shields Ready'</title>
@@ -248,25 +272,6 @@ git push origin master
         
         
         <category>development_techniques</category>
-        
-      </item>
-    
-      <item>
-        <title>Changes to the site</title>
-        <description>&lt;p&gt;This year has been an exciting one so far. I’ve tackled a number of data-analysis projects, including investigating data on the cybersecurity workforce shortfall and a deep dive into the National Vulnerability Database.&lt;/p&gt;
-
-&lt;p&gt;Some of the cybersecurity workforce data ended up in &lt;a href=&quot;http://www.cxo-magazine.com/reports/closing-the-cybersecurity-talent-gap/the-race-to-build-a-cyber-workforce&quot;&gt;my feature article for CXO Magazine&lt;/a&gt;, a publication of Northeastern University.&lt;/p&gt;
-
-&lt;p&gt;I’m working on a couple other data analysis projects. Some will end up in reports, and I will post more here when they are published.&lt;/p&gt;
-
-&lt;p&gt;I’m also working on revising all my Web sites, so expect more changes here.&lt;/p&gt;
-</description>
-        <pubDate>Sun, 18 Mar 2018 00:00:00 -0500</pubDate>
-        <link>http://0.0.0.0:4000/2018/03/18/major-changes-coming/</link>
-        <guid isPermaLink="true">http://0.0.0.0:4000/2018/03/18/major-changes-coming/</guid>
-        
-        
-        <category>blog</category>
         
       </item>
     
