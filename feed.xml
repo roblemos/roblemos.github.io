@@ -6,9 +6,54 @@
 </description>
     <link>http://0.0.0.0:4000/</link>
     <atom:link href="http://0.0.0.0:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 18 Nov 2023 13:26:42 -0600</pubDate>
-    <lastBuildDate>Sat, 18 Nov 2023 13:26:42 -0600</lastBuildDate>
+    <pubDate>Fri, 01 Dec 2023 18:45:56 -0600</pubDate>
+    <lastBuildDate>Fri, 01 Dec 2023 18:45:56 -0600</lastBuildDate>
     <generator>Jekyll v3.9.0</generator>
+    
+      <item>
+        <title>Week 49 in Review: Ransomware in the Middle East, law firms under fire</title>
+        <description>&lt;p&gt;Only two articles out this week. As part of Dark Reading’s increased focus on the Middle East and Africa, I covered the surge in ransomware and other threats due to both geopolitics and attacker’s efforts to go where the money is. In a similar vein, law firms and other legal departments have become a popular target for hackers, especially the Blackcat group, which uses SEO based on legal terms to target lawyers.&lt;/p&gt;
+
+&lt;h2 id=&quot;law-firms--legal-departments-singled-out-for-cyberattacks--dark-reading&quot;&gt;&lt;a href=&quot;https://www.darkreading.com/cyberattacks-data-breaches/law-firms-face-a-more-dangerous-threat-landscape&quot;&gt;Law Firms &amp;amp; Legal Departments Singled Out for Cyberattacks | Dark Reading&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;em&gt;Cybercriminals use legal search terms to ensnare unwitting victims, then launch ransomware or business email compromise attacks. (30 November 2023)&lt;/em&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;why-ransomware-could-surge-in-the-middle-east--africa--dark-reading&quot;&gt;&lt;a href=&quot;https://www.darkreading.com/vulnerabilities-threats/ransomware-attacks-strike-south-africa-decline-in-uae&quot;&gt;Why Ransomware Could Surge in the Middle East &amp;amp; Africa | Dark Reading&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;em&gt;Organizations from the Middle East and Africa have typically escaped public ransoms, but that’s changing amid heightened geopolitical conflicts and digitalization initiatives. (29 November 2023)&lt;/em&gt;&lt;/p&gt;
+</description>
+        <pubDate>Fri, 01 Dec 2023 15:00:00 -0600</pubDate>
+        <link>http://0.0.0.0:4000/2023/12/01/week-in-review-48/</link>
+        <guid isPermaLink="true">http://0.0.0.0:4000/2023/12/01/week-in-review-48/</guid>
+        
+        <category>week-in-review</category>
+        
+        
+        <category>articles</category>
+        
+      </item>
+    
+      <item>
+        <title>Week 47 in Review: A look at the KEV list, a Kubernetes rootkit, and web shells</title>
+        <description>&lt;p&gt;Happy Thanksgiving to those who celebrate it. This week, Dark Reading published three articles, including coverage of the strengths and weaknesses of the the Known Exploited Vulnerabilities (KEV) list, a rootkit that does more than cryptomining on compromised Kubernetes clusters, and a new web shells with some advanced features.&lt;/p&gt;
+
+&lt;h2 id=&quot;web-shells-gain-sophistication-for-stealth-persistence--dark-reading&quot;&gt;&lt;a href=&quot;https://www.darkreading.com/cloud-security/web-shells-gain-sophistication-for-stealth-persistence&quot;&gt;Web Shells Gain Sophistication for Stealth, Persistence | Dark Reading&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;em&gt;A favorite post-exploitation tool continues to gain sophistication, with one recent example adding disguised log-in pages, credential stealing, and information gathering via services such as VirusTotal. (22 November 2023)&lt;/em&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;rootkit-turns-kubernetes-from-orchestration-to-subversion--dark-reading&quot;&gt;&lt;a href=&quot;https://www.darkreading.com/vulnerabilities-threats/rootkit-turns-kubernetes-from-orchestration-to-subversion&quot;&gt;Rootkit Turns Kubernetes from Orchestration to Subversion | Dark Reading&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;em&gt;Kubernetes compromises have usually led to attackers creating cryptomining containers, but the outcomes could be much worse, say researchers presenting at the Black Hat Europe conference. (22 November 2023)&lt;/em&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;exploited-vulnerabilities-can-take-months-to-make-kev-list--dark-reading&quot;&gt;&lt;a href=&quot;https://www.darkreading.com/vulnerabilities-threats/exploited-vulnerabilities-can-take-months-to-make-kev-list&quot;&gt;Exploited Vulnerabilities Can Take Months to Make KEV List | Dark Reading&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;em&gt;The Known Exploited Vulnerabilities (KEV) catalog is a high-quality source of information on software flaws being exploited in the wild, but updates are often delayed, which means companies need other sources of threat intelligence. (19 November 2023)&lt;/em&gt;&lt;/p&gt;
+</description>
+        <pubDate>Fri, 24 Nov 2023 15:00:00 -0600</pubDate>
+        <link>http://0.0.0.0:4000/2023/11/24/week-in-review-47/</link>
+        <guid isPermaLink="true">http://0.0.0.0:4000/2023/11/24/week-in-review-47/</guid>
+        
+        <category>week-in-review</category>
+        
+        
+        <category>articles</category>
+        
+      </item>
     
       <item>
         <title>Week 46 in Review: Molerats Change Tactics, Flaws in AI Tools, Developers Under Attack</title>
@@ -218,60 +263,6 @@ $ git push origin gh-pages
         <category>techtarget</category>
         
         <category>articles</category>
-        
-      </item>
-    
-      <item>
-        <title>The Race to Build a Cybersecurity Workforce</title>
-        <description>&lt;p&gt;Secureworks can’t hire cybersecurity pros fast enough.&lt;/p&gt;
-
-&lt;p&gt;The Atlanta-based firm that helps 4,400 companies worldwide fend off cyberattacks has about 140 openings at more than a dozen locations globally. Yet filling those positions has become a grueling—and often impossible—task. The company goes through 12 to 32 interviews just to fill a single analyst position, and the time it takes to find the right candidate continues to lengthen, says Terry McGraw, vice president of global cyberthreat analysis for Secureworks.&lt;/p&gt;
-
-&lt;p&gt;…&lt;/p&gt;
-
-&lt;p&gt;Continued at: &lt;a href=&quot;https://www.cxo-magazine.com/report/the-race-to-build-a-cyber-workforce/&quot;&gt;&lt;em&gt;The Race to Build a Cybersecurity Workforce&lt;/em&gt; — CXO Magazine&lt;/a&gt;&lt;/p&gt;
-</description>
-        <pubDate>Mon, 19 Mar 2018 07:10:00 -0500</pubDate>
-        <link>http://0.0.0.0:4000/2018/03/19/cybersecurity-workforce/</link>
-        <guid isPermaLink="true">http://0.0.0.0:4000/2018/03/19/cybersecurity-workforce/</guid>
-        
-        
-        <category>features</category>
-        
-        <category>articles</category>
-        
-      </item>
-    
-      <item>
-        <title>Some Git techniques</title>
-        <description>&lt;p&gt;Here are some techniques that I handled.&lt;/p&gt;
-
-&lt;h2 id=&quot;1-flushing-the-cache&quot;&gt;1. Flushing the cache&lt;/h2&gt;
-&lt;p&gt;I had some ‘.’ files that had replicated to the repository on GitHub, so I had to figure out how to flush them.&lt;/p&gt;
-
-&lt;p&gt;This &lt;a href=&quot;https://eric.blog/2014/05/11/remove-files-from-git-addingupdating-gitignore/&quot;&gt;technique came up in a search&lt;/a&gt; and basically flushes the repository and then puts everything back.&lt;/p&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;git rm -r --cached .
-git add -A
-git commit -am 'Removing ignored files'
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;2-the-best-way-to-merge-a-branch-with-master&quot;&gt;2. The best way to merge a branch with Master&lt;/h2&gt;
-
-&lt;p&gt;The best – and safest – way to merge a branch with master.&lt;/p&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;git checkout master
-git pull origin master
-git merge test
-git push origin master
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-</description>
-        <pubDate>Sun, 18 Mar 2018 16:00:00 -0500</pubDate>
-        <link>http://0.0.0.0:4000/2018/03/18/flushing-git-repository/</link>
-        <guid isPermaLink="true">http://0.0.0.0:4000/2018/03/18/flushing-git-repository/</guid>
-        
-        
-        <category>development_techniques</category>
         
       </item>
     
