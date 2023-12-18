@@ -6,9 +6,57 @@
 </description>
     <link>http://0.0.0.0:4000/</link>
     <atom:link href="http://0.0.0.0:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 01 Dec 2023 19:03:59 -0600</pubDate>
-    <lastBuildDate>Fri, 01 Dec 2023 19:03:59 -0600</lastBuildDate>
+    <pubDate>Sun, 17 Dec 2023 19:24:39 -0600</pubDate>
+    <lastBuildDate>Sun, 17 Dec 2023 19:24:39 -0600</lastBuildDate>
     <generator>Jekyll v3.9.0</generator>
+    
+      <item>
+        <title>Week 50 in Review: LinkedIn scams target Middle East, and an introduction to CVSS 4.0</title>
+        <description>&lt;p&gt;I had two articles published this week, one over at Dark Reading covering the relative improvement in LinkedIn scams targeting the Middle East and another for Synack’s README.security covering the release of CVSS 4.0.&lt;/p&gt;
+
+&lt;h2 id=&quot;cvss-40-is-shaking-up-vulnerability-management-heres-whats-changed--readmesecurity&quot;&gt;&lt;a href=&quot;https://readme.synack.com/cvss-4-is-shaking-up-vulnerability-management.-heres-whats-changed&quot;&gt;CVSS 4.0 is shaking up vulnerability management. Here’s what’s changed | README.security&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;em&gt;CVSS 4.0 urges companies to go beyond base scores, allowing them to more accurately judge the threat posed by particular vulnerabilities based on threat intelligence and environmental factors. (14 December 2023)&lt;/em&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;convincing-linkedin-profiles-target-saudi-workers-for-information-leakage--dark-reading&quot;&gt;&lt;a href=&quot;https://www.darkreading.com/cloud-security/convincing-linkedin-profiles-target-saudi-workers-information-leakage&quot;&gt;Convincing LinkedIn ‘Profiles’ Target Saudi Workers for Information Leakage | Dark Reading&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;em&gt;Social engineering attacks in the Kingdom collect information on professionals — and offer fake profiles for sale. (11 December 2023)&lt;/em&gt;&lt;/p&gt;
+</description>
+        <pubDate>Fri, 15 Dec 2023 15:00:00 -0600</pubDate>
+        <link>http://0.0.0.0:4000/2023/12/15/week-in-review-50/</link>
+        <guid isPermaLink="true">http://0.0.0.0:4000/2023/12/15/week-in-review-50/</guid>
+        
+        <category>week-in-review</category>
+        
+        
+        <category>articles</category>
+        
+      </item>
+    
+      <item>
+        <title>Week 49 in Review: Cloud security in the Middle East, and OT ransomware</title>
+        <description>&lt;p&gt;I had four articles published this week. The top story was based on analyses from Palo Alto Networks and Microsoft that showed that the Russian hacking group known as Fancy Bear had continued to use a Microsoft Outlook zero-click vulnerability as late October this year. In other articles, I looked at ransomware’s growing impact on operational technology, and worries over the criticality of cloud operations to the security of companies in the Middle East.&lt;/p&gt;
+
+&lt;h2 id=&quot;russian-espionage-group-hammers-zero-click-microsoft-outlook-bug--dark-reading&quot;&gt;&lt;a href=&quot;https://www.darkreading.com/ics-ot-security/russian-espionage-group-hammers-zero-click-microsoft-outlook-bug&quot;&gt;Russian Espionage Group Hammers Zero-Click Microsoft Outlook Bug | Dark Reading&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;em&gt;State-sponsored actors continue to exploit CVE-2023-23397, a dangerous no-interaction vulnerability in Microsoft’s Outlook email client that was patched in March, in a widespread global campaign. (8 December 2023)&lt;/em&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;ransomware-data-breaches-inundate-ot--industrial-sector--dark-reading&quot;&gt;&lt;a href=&quot;https://www.darkreading.com/ics-ot-security/ransomware-data-breaches-inundate-ot-industrial-sector&quot;&gt;Ransomware, Data Breaches Inundate OT &amp;amp; Industrial Sector | Dark Reading&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;em&gt;Because of the criticality of remaining operational, industrial companies and utilities are far more likely to pay, attracting even more threat groups and a focus on OT systems. (7 December 2023)&lt;/em&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;middle-east-cisos-fear-disruptive-cloud-breach--dark-reading&quot;&gt;&lt;a href=&quot;https://www.darkreading.com/cloud-security/middle-east-cisos-fear-disruptive-cloud-breach&quot;&gt;Middle East CISOs Fear Disruptive Cloud Breach | Dark Reading&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;em&gt;Increasingly, businesses are concerned about the speed of their cloud incident response times. (6 December 2023)&lt;/em&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;enhancing-incident-response-playbooks-with-machine-learning--dark-reading&quot;&gt;&lt;a href=&quot;https://www.darkreading.com/cybersecurity-operations/automation-via-machine-learning-makes-cybersecurity-playbooks-better&quot;&gt;Enhancing Incident Response Playbooks With Machine Learning | Dark Reading&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;em&gt;Cybersecurity analysts use playbooks as a guide to quickly investigate and respond to incidents, but they regularly neglect to keep the process documents up to date. (5 December 2023)&lt;/em&gt;&lt;/p&gt;
+</description>
+        <pubDate>Fri, 08 Dec 2023 15:00:00 -0600</pubDate>
+        <link>http://0.0.0.0:4000/2023/12/08/week-in-review-49/</link>
+        <guid isPermaLink="true">http://0.0.0.0:4000/2023/12/08/week-in-review-49/</guid>
+        
+        <category>week-in-review</category>
+        
+        
+        <category>articles</category>
+        
+      </item>
     
       <item>
         <title>Week 48 in Review: Ransomware in the Middle East, law firms under fire</title>
@@ -215,52 +263,6 @@ $ git push origin gh-pages
         
         <category>week-in-review</category>
         
-        
-        <category>articles</category>
-        
-      </item>
-    
-      <item>
-        <title>Containers under attack: What your app sec team needs to know</title>
-        <description>&lt;p&gt;As a network-penetration expert, Wesley McGrew regularly runs red-team exercises against the networks of his clients, and increasingly he is seeing containerized applications being targeted.&lt;/p&gt;
-
-&lt;p&gt;While containers bring the benefits of standardization, isolation, and the principle of least privilege to the development of cloud-based software, they can be a boon for attackers. Containerized applications don’t necessarily introduce any new vulnerabilities, but they do present additional attack vectors.&lt;/p&gt;
-
-&lt;p&gt;Continued at: &lt;a href=&quot;https://techbeacon.com/containers-under-attack-what-your-app-sec-team-needs-know&quot;&gt;&lt;em&gt;Containers under attack: What your app sec team needs to know&lt;/em&gt; — TechBeacon&lt;/a&gt;&lt;/p&gt;
-</description>
-        <pubDate>Wed, 05 Sep 2018 00:00:00 -0500</pubDate>
-        <link>http://0.0.0.0:4000/2018/09/05/containers-under-attack/</link>
-        <guid isPermaLink="true">http://0.0.0.0:4000/2018/09/05/containers-under-attack/</guid>
-        
-        
-        <category>techbeacon</category>
-        
-        <category>devops</category>
-        
-        <category>cybersecurity</category>
-        
-        <category>articles</category>
-        
-      </item>
-    
-      <item>
-        <title>Overwhelmed by security data? Science to the rescue</title>
-        <description>&lt;p&gt;When Charles Givre, lead data scientist at Deutsche Bank, teaches security teams about the benefits of applying security data science techniques, he often focuses on a common malware tactic: domain-generation algorithms.&lt;/p&gt;
-
-&lt;p&gt;Used by malicious programs to establish contact with a command-and-control server, domain-generation algorithms, or DGAs, create a list of domain names as potential contact points using pseudo-random algorithms. The domains change often – usually daily – and can look random or use random words.&lt;/p&gt;
-
-&lt;p&gt;For humans, finding a single computer’s call to a random domain is a difficult problem. Yet data analysis can quickly call out the anomalous communications.&lt;/p&gt;
-
-&lt;p&gt;…&lt;/p&gt;
-
-&lt;p&gt;Continued at: &lt;a href=&quot;https://searchsecurity.techtarget.com/feature/Overwhelmed-by-security-data-Science-to-the-rescue&quot;&gt;&lt;em&gt;Overwhelmed by security data? Science to the rescue&lt;/em&gt; — TechTarget&lt;/a&gt;&lt;/p&gt;
-</description>
-        <pubDate>Wed, 15 Aug 2018 00:00:00 -0500</pubDate>
-        <link>http://0.0.0.0:4000/2018/08/15/overwhelmed-by-security-data/</link>
-        <guid isPermaLink="true">http://0.0.0.0:4000/2018/08/15/overwhelmed-by-security-data/</guid>
-        
-        
-        <category>techtarget</category>
         
         <category>articles</category>
         
