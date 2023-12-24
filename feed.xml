@@ -6,9 +6,30 @@
 </description>
     <link>http://0.0.0.0:4000/</link>
     <atom:link href="http://0.0.0.0:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 17 Dec 2023 19:24:39 -0600</pubDate>
-    <lastBuildDate>Sun, 17 Dec 2023 19:24:39 -0600</lastBuildDate>
+    <pubDate>Sun, 24 Dec 2023 09:34:26 -0600</pubDate>
+    <lastBuildDate>Sun, 24 Dec 2023 09:34:26 -0600</lastBuildDate>
     <generator>Jekyll v3.9.0</generator>
+    
+      <item>
+        <title>Week 51 in Review: Zoom's VISS and a Surge in Zero-Days</title>
+        <description>&lt;p&gt;A lot of writing this past week, but most of which won’t be published for the next few weeks, since my editors are caching articles for the coming vacation. So, I have two articles to post from the past week: One covering the differences of Zoom’s new Vulnerability Impact Scoring System, and another for README.security that is focused on the surge in 0-day vulnerabilities over the past year.&lt;/p&gt;
+
+&lt;h2 id=&quot;will-putting-a-dollar-value-on-vulnerabilities-help-prioritize-them--dark-reading&quot;&gt;&lt;a href=&quot;https://www.darkreading.com/application-security/putting-dollar-value-vulnerabilities-prioritize&quot;&gt;Will Putting a Dollar Value on Vulnerabilities Help Prioritize Them? | Dark Reading&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;em&gt;Zoom’s Vulnerability Impact Scoring System calculates the impact of a vulnerability to assign a cash payout for bugs, leading hackers to prioritize more severe flaws. Can it do the same for companies? (18 December 2023)&lt;/em&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;zero-days-arent-just-for-nation-states-anymore--readmesecurity&quot;&gt;&lt;a href=&quot;https://readme.synack.com/zero-days-arent-just-for-nation-states-anymore&quot;&gt;Zero-days aren’t just for nation-states anymore | README.security&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;em&gt;In 2023, attackers continue to wield more zero-day exploits against companies and individuals, using them for ransomware, surveillance and espionage. Will the number of zero-days climb further in the New Year? What can organizations do? (21 December 2023)&lt;/em&gt;&lt;/p&gt;
+</description>
+        <pubDate>Fri, 22 Dec 2023 15:00:00 -0600</pubDate>
+        <link>http://0.0.0.0:4000/2023/12/22/week-in-review-51/</link>
+        <guid isPermaLink="true">http://0.0.0.0:4000/2023/12/22/week-in-review-51/</guid>
+        
+        <category>week-in-review</category>
+        
+        
+        <category>articles</category>
+        
+      </item>
     
       <item>
         <title>Week 50 in Review: LinkedIn scams target Middle East, and an introduction to CVSS 4.0</title>
@@ -239,27 +260,6 @@ $ git push origin gh-pages
         <pubDate>Fri, 27 Oct 2023 10:44:00 -0500</pubDate>
         <link>http://0.0.0.0:4000/2023/10/27/week-in-review-43/</link>
         <guid isPermaLink="true">http://0.0.0.0:4000/2023/10/27/week-in-review-43/</guid>
-        
-        <category>week-in-review</category>
-        
-        
-        <category>articles</category>
-        
-      </item>
-    
-      <item>
-        <title>Week 42 in Review: A Look as OSQuery, a README feature on MOVEit</title>
-        <description>&lt;p&gt;Open-source software is the critical technology that has allowed cloud services to take off. Why has a similar effect not happened in the security world. The open-source infrastructure around information security is there, but agents — such as &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;osquery&lt;/code&gt; are not leading to common ecosystems. Also, three months after the late-May MOVEit compromises, organizations are still disclosing breaches. Why the delay and what’s it mean?&lt;/p&gt;
-
-&lt;h2 id=&quot;open-source-security-agents-promise-greater-simplicity-flexibility--dark-reading&quot;&gt;&lt;a href=&quot;https://www.darkreading.com/dr-tech/open-source-security-agents-promise-greater-simplicity-flexibility&quot;&gt;Open Source Security Agents Promise Greater Simplicity, Flexibility | Dark Reading&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;&lt;em&gt;Endpoint management based on open source agents, such as osquery, could simplify IT management and security while giving larger firms more customization options. (18 October 2023)&lt;/em&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;moveit-transfer-saga-shows-danger-of-the-dark-middle--readmesecurity&quot;&gt;&lt;a href=&quot;https://readme.synack.com/moveit-transfer-saga-shows-danger-of-the-dark-middle&quot;&gt;MOVEit Transfer saga shows danger of the ‘Dark Middle’ | README.security&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;&lt;em&gt;When attackers find vulnerabilities in software used by service providers with dozens or hundreds of clients, the impact of a breach can quickly spiral out of control. (18 October 2023)&lt;/em&gt;&lt;/p&gt;
-</description>
-        <pubDate>Fri, 20 Oct 2023 10:44:00 -0500</pubDate>
-        <link>http://0.0.0.0:4000/2023/10/20/week-in-review-42/</link>
-        <guid isPermaLink="true">http://0.0.0.0:4000/2023/10/20/week-in-review-42/</guid>
         
         <category>week-in-review</category>
         
