@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Hi, I Am John Doe — Robert Lemos</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:600&family=Open+Sans&display=swap" rel="stylesheet">
+
+  <!-- Bulma & Custom Styles -->
+  <link rel="stylesheet" href="/theme/css/bulma.css">
+  <link rel="stylesheet" href="/theme/css/custom.css">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="/favicon.png">
+</head>
+<body>
+
+<nav class="navbar is-white is-spaced" role="navigation" aria-label="main navigation">
+  <div class="container is-flex is-align-items-center is-justify-content-space-between">
+
+  <!-- Branding: logo + name + subtitle -->
+  <a href="/" class="is-flex is-align-items-center has-text-dark" style="text-decoration: none;">
+    <figure class="image is-96x96 mr-0 mb-0">
+      <img src="/images/logo.png" alt="Site Logo">
+    </figure>
+    <div class="is-flex is-align-items-baseline ml-3">
+      <h1 class="title is-2 mb-0 mr-2 has-text-weight-bold">Robert Lemos</h1>
+        <p class="subtitle-inline">writer, journalist, coder, data analyst</p>
+    </div>
+  </a>
+
+
+    <!-- Menu -->
+    <div class="navbar-menu is-active">
+      <div class="navbar-end">
+        <a class="navbar-item" href="/">Home</a>
+        <a class="navbar-item" href="/pages/about.html">About</a>
+        <a class="navbar-item" href="/pages/contact.html">Contact</a>
+        <a class="navbar-item" href="/author/robert-lemos.html">Author</a>
+        <a class="navbar-item" href="/categories.html">Categories</a>
+      </div>
+    </div>
+  </div>
+</nav>
+<section class="section">
+  <div class="container content">
+
+    <div class="title-bordered mb-5 is-flex is-align-items-center">
+      <h1 class="title is-3">Hi, I Am John Doe</h1>
+    </div>
+
+
+    <div class="content">
+      
+<!-- navigation -->
+<header class="is-sticky-top bg-white border-bottom border-default">
+   <div class="container">
+
+      <nav class="navigation navbar is-white">
+         <a class="navbar-brand is-inline-flex ml-0 is-align-items-center" href="index.html">
+            <img src="images/logo.png" alt="logo">
+         </a>
+         <button role="button" class="navbar-burger burger" data-hidden="true" data-target="navigation">
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+         </button>
+
+         <ul class="navbar-end navbar-menu" id="navigation">
+            <li class="navbar-item has-dropdown is-hoverable has-active">
+               <a class="navbar-link">Homepage <small class="ti-angle-down ml-1"></small></a>
+               <div class="navbar-dropdown">
+                  <a class="navbar-item" href="index-full.html">Homepage Full Width</a>
+                  <a class="navbar-item" href="index-full-left.html">Homepage Full With Left Sidebar</a>
+                  <a class="navbar-item" href="index-full-right.html">Homepage Full With Right Sidebar</a>
+                  <a class="navbar-item" href="index-list.html">Homepage List Style</a>
+                  <a class="navbar-item" href="index-list-left.html">Homepage List With Left Sidebar</a>
+                  <a class="navbar-item" href="index-list-right.html">Homepage List With Right Sidebar</a>
+               </div>
+            </li>
+                
+            <li class="navbar-item">
+               <a class="navbar-link is-arrowless" href="about.html">About</a>
+            </li>
+                
+            <li class="navbar-item">
+               <a class="navbar-link is-arrowless" href="contact.html">Contact</a>
+            </li>
+            
+            <li class="navbar-item has-dropdown is-hoverable has-active">
+               <a class="navbar-link">Pages <small class="ti-angle-down ml-1"></small></a>
+               <div class="navbar-dropdown">
+                  <a class="navbar-item" href="author.html">Author</a>
+                  <a class="navbar-item" href="post-details-1.html">Post Details 1</a>
+                  <a class="navbar-item" href="post-details-2.html">Post Details 2</a>
+                  <a class="navbar-item" href="post-elements.html">Post Elements</a>
+                  <a class="navbar-item" href="privacy-policy.html">Privacy Policy</a>
+                  <a class="navbar-item" href="terms-conditions.html">Terms Conditions</a>
+               </div>
+            </li>
+
+            <li class="navbar-item">
+               <select class="m-2 is-borderless" id="select-language">
+                  <option id="en" value="about/" selected>En</option>
+                  <option id="fr" value="fr/about/">Fr</option>
+               </select>
+            </li>
+
+            <li class="navbar-item">
+               <button id="searchOpen" class="search-btn"><i class="ti-search"></i></button>
+            </li>
+
+            <!-- search -->
+            <div class="search">
+               <div class="search-wrapper">
+                  <form action="javascript:void(0)" class="h-100">
+                     <input class="search-box pl-4" id="search-query" name="s" type="search" placeholder="Type &amp; Hit Enter...">
+                  </form>
+                  <button id="searchClose" class="search-close"><i class="ti-close text-dark"></i></button>
+               </div>
+            </div>
+         </ul>
+      </nav>
+   </div>
+</header>
+<!-- /navigation -->
+
+<section class="section-sm">
+	<div class="container">
+		<div class="columns is-multiline">
+			<div class="column is-12">
+				<div class="title-bordered mb-5 is-flex is-align-items-center">
+					<h1 class="h4">Hi, I Am John Doe</h1>
+					<ul class="list-inline social-icons ml-auto mr-3 is-hidden-mobile">
+						<li class="list-inline-item"><a href="#"><i class="ti-facebook"></i></a>
+						</li>
+						<li class="list-inline-item"><a href="#"><i class="ti-twitter-alt"></i></a>
+						</li>
+						<li class="list-inline-item"><a href="#"><i class="ti-linkedin"></i></a>
+						</li>
+						<li class="list-inline-item"><a href="#"><i class="ti-github"></i></a>
+						</li>
+					</ul>
+				</div>
+				<img src="images/author-full.jpg" class="w-100 mb-4 rounded-lg" alt="author">
+				<div class="content">
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Condimentum in urna justo elit turpis risus vitae viverra enim. Augue quis vitae in non nisi, posuere ultrices tempus. Feugiat consequat suspendisse laoreet vitae enim adipiscing cursus. Duis nunc vitae tincidunt sed nibh id. Egestas erat consequat, ornare etiam donec faucibus. Lorem ut enim nunc, senectus adipiscing sed. Lobortis commodo aliquet pulvinar molestie faucibus diam. Semper porttitor justo, et dictum</p>
+					<p>Faucibus duis urna, consequat morbi imperdiet pulvinar. Mauris vitae sed aliquet eu tincidunt id. Nulla leo eget erat vel pharetra. Morbi nullam morbi non purus, augue. Massa cras odio ante cursus a mauris. Volutpat faucibus feugiat feugiat euismod congue ridiculus. Et ipsum euismod nulla et aenean diam duis. Sem molestie est mauris sit. Et eleifend odio</p>
+					<div class="quote"> <i class="ti-quote-left"></i>
+						<div>
+							<p>Life is a series of natural and spontaneous changes. Don’t resist them – that only create sorcolumns is-multiline. Let reality changes be reality. Let things flow naturally way they like.</p> <span class="quote-by"> -John Doe</span>
+						</div>
+					</div>
+					<hr>
+					<h4 id="my-skills--experiences">My Skills &amp; Experiences:</h4>
+					<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cumto sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec.</p>
+					<ul>
+						<li>In enim justo, rhoncus ut,</li>
+						<li>Curabitur ullamcorper ultricies</li>
+						<li>Donec vitae sapien utlorem</li>
+					</ul>
+					<p>Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna.</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+   <footer class="section-sm pb-0 border-top border-default">
+      <div class="container">
+         <div class="columns is-multiline is-justify-content-space-between">
+            <div class="column is-3-desktop">
+               <a class="mb-5 is-block" href="index.html">
+                  <img class="" width="150px" src="images/logo.png" alt="LogBook">
+               </a>
+               <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
+            </div>
+
+            <div class="column is-2-widescreen is-3-desktop is-6">
+               <h6 class="mb-4">Quick Links</h6>
+               <ul class="list-unstyled footer-list">
+                  <li><a href="about.html">About</a></li>
+                  <li><a href="contact.html">Contact</a></li>
+                  <li><a href="privacy-policy.html">Privacy Policy</a></li>
+                  <li><a href="terms-conditions.html">Terms Conditions</a></li>
+               </ul>
+            </div>
+
+            <div class="column is-2-widescreen is-3-desktop is-6">
+               <h6 class="mb-4">Social Links</h6>
+               <ul class="list-unstyled footer-list">
+                  <li><a href="#">facebook</a></li>
+                  <li><a href="#">twitter</a></li>
+                  <li><a href="#">linkedin</a></li>
+                  <li><a href="#">github</a></li>
+               </ul>
+            </div>
+
+            <div class="column is-3-desktop">
+               <h6 class="mb-4">Subscribe Newsletter</h6>
+               <form class="subscription" action="javascript:void(0)" method="post">
+                  <div class="is-relative">
+                     <i class="ti-email email-icon"></i>
+                     <input type="email" class="input" placeholder="Your Email Address">
+                  </div>
+                  <button class="btn btn-primary w-100 rounded mt-2" type="submit">Subscribe now</button>
+               </form>
+            </div>
+         </div>
+         <div class="scroll-top">
+            <a href="javascript:void(0);" id="scrollTop"><i class="ti-angle-up"></i></a>
+         </div>
+         <div class="has-text-centered">
+            <p class="content">&copy; 2020 - Design &amp; Develop By <a href="https://themefisher.com/" target="_blank">Themefisher</a></p>
+         </div>
+      </div>
+   </footer>
+
+
+   <!-- JS Plugins -->
+   <script src="plugins/jQuery/jquery.min.js"></script>
+   <script src="plugins/slick/slick.min.js"></script>
+
+   <!-- Main Script -->
+   <script src="js/script.js"></script>
+
+    </div>
+
+  </div>
+</section>
+
+<footer class="section-sm pb-0 border-top border-default">
+  <div class="container">
+    <div class="columns is-multiline is-justify-content-space-between">
+
+      <!-- About this site -->
+      <div class="column is-3-desktop">
+        <h4 class="mb-4">About this site</h4>
+        <p>This site features the work of Robert Lemos — writer, data scientist, and coder — with a focus on cybersecurity, data analysis, and modern tech reporting.</p>
+      </div>
+
+      <!-- Blogroll/Links -->
+      <div class="column is-2-widescreen is-3-desktop is-6">
+        <h6 class="mb-4">Blogroll</h6>
+        <ul class="footer-list">
+            <li><a href="https://www.lemosassociates.com/" target="_blank" rel="noopener">Lemos Associates LLC</a></li>
+            <li><a href="https://www.darkreading.com/" target="_blank" rel="noopener">Dark Reading</a></li>
+            <li><a href="https://technologyreview.com" target="_blank" rel="noopener">MIT Tech Review</a></li>
+            <li><a href="https://getpelican.com/" target="_blank" rel="noopener">Pelican</a></li>
+        </ul>
+      </div>
+
+      <!-- Social Links -->
+      <div class="column is-2-widescreen is-3-desktop is-6">
+        <h6 class="mb-4">Social</h6>
+        <ul class="footer-list">
+            <li><a href="https://www.linkedin.com/in/roblemos/" target="_blank" rel="noopener">LinkedIn</a></li>
+            <li><a href="https://github.com/roblemos" target="_blank" rel="noopener">GitHub</a></li>
+            <li><a href="https://roblemos.bsky.social" target="_blank" rel="noopener">Bluesky</a></li>
+            <li><a href="https://x.com/roblemos" target="_blank" rel="noopener">X/Twitter</a></li>
+        </ul>
+      </div>
+
+      <!-- Newsletter (optional placeholder) -->
+      <div class="column is-3-desktop">
+        <h6 class="mb-4">Subscribe Newsletter</h6>
+        <form class="subscription" action="javascript:void(0)" method="post">
+          <div class="is-relative">
+            <i class="ti-email email-icon"></i>
+            <input type="email" class="input" placeholder="Your Email Address">
+          </div>
+          <button class="btn btn-primary w-100 rounded mt-2" type="submit">Subscribe now</button>
+        </form>
+      </div>
+    </div>
+
+    <!-- Scroll-top (static link) -->
+    <div class="scroll-top">
+      <a href="#top">
+        <img src="/images/logo.png" alt="Back to top" class="footer-logo">
+      </a>
+    </div>
+
+    <!-- Copyright -->
+    <div class="has-text-centered">
+      <p class="content">&copy; 2016–2025 — <a href="https://lemosassociates.com" target="_blank">Lemos Associates LLC</a></p>
+    </div>
+
+  </div>
+</footer>
+</body>
+</html>

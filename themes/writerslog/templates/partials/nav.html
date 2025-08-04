@@ -1,0 +1,29 @@
+<nav class="navbar is-white is-spaced" role="navigation" aria-label="main navigation">
+  <div class="container is-flex is-align-items-center is-justify-content-space-between">
+
+    <!-- Branding: logo + name + subtitle -->
+    <a href="{{ SITEURL }}/" class="is-flex is-align-items-center has-text-dark" style="text-decoration: none;">
+      <figure class="image is-96x96 mr-0 mb-0">
+        <img src="{{ SITEURL }}/{{ LOGO }}" alt="Site Logo">
+      </figure>
+      <div class="is-flex is-align-items-baseline ml-3">
+        <h1 class="title is-2 mb-0 mr-2 has-text-weight-bold">{{ SITENAME }}</h1>
+        {% if SITESUBTITLE %}
+          <p class="subtitle-inline">{{ SITESUBTITLE }}</p>
+        {% endif %}
+      </div>
+    </a>
+
+    <!-- Menu -->
+    <div class="navbar-menu is-active">
+      <div class="navbar-end">
+        <a class="navbar-item" href="{{ SITEURL }}/">Home</a>
+        <a class="navbar-item" href="{{ SITEURL }}/pages/my-works.html">My Works</a>
+        <a class="navbar-item" href="{{ SITEURL }}/pages/ai-usage.html">AI Usage</a>
+        <a class="navbar-item" href="{{ SITEURL }}/pages/about.html">About</a>
+        <a class="navbar-item" href="{{ SITEURL }}/pages/contact.html">Contact</a>
+      </div>
+    </div>
+
+  </div>
+</nav>

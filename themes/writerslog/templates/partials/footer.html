@@ -1,0 +1,61 @@
+<footer class="section-sm pb-0 border-top border-default">
+  <div class="container">
+    <div class="columns is-multiline is-justify-content-space-between">
+
+      <!-- About this site -->
+      <div class="column is-3-desktop">
+        <h4 class="mb-4">About this site</h4>
+        <p>I built this site by adapting the layout of the
+          <a href="https://github.com/themefisher/logbook-bulma">the LogBook static theme</a> — which uses
+          <a href="https://bulma.io">the Bulma CSS framework</a> as a foundation — to work with
+          <a href="https://getpelican.com">the Pelican static site generator</a>.
+        </p>
+      </div>
+
+      <!-- Blogroll/Links -->
+      <div class="column is-2-widescreen is-3-desktop is-6">
+        <h6 class="mb-4">Blogroll</h6>
+        <ul class="footer-list">
+          {% for name, url in LINKS %}
+            <li><a href="{{ url }}" target="_blank" rel="noopener">{{ name }}</a></li>
+          {% endfor %}
+        </ul>
+      </div>
+
+      <!-- Social Links -->
+      <div class="column is-2-widescreen is-3-desktop is-6">
+        <h6 class="mb-4">Social</h6>
+        <ul class="footer-list">
+          {% for name, url in SOCIAL %}
+            <li><a href="{{ url }}" target="_blank" rel="noopener">{{ name }}</a></li>
+          {% endfor %}
+        </ul>
+      </div>
+
+      <!-- Newsletter (optional placeholder) -->
+      <div class="column is-3-desktop">
+        <h6 class="mb-4">Subscribe Newsletter</h6>
+        <form class="subscription" action="javascript:void(0)" method="post">
+          <div class="is-relative">
+            <i class="ti-email email-icon"></i>
+            <input type="email" class="input" placeholder="Your Email Address">
+          </div>
+          <button class="btn btn-primary w-100 rounded mt-2" type="submit">Subscribe now</button>
+        </form>
+      </div>
+    </div>
+
+    <!-- Scroll-top (static link) -->
+    <div class="scroll-top">
+      <a href="#top">
+        <img src="{{ SITEURL }}/{{ LOGO }}" alt="Back to top" class="footer-logo">
+      </a>
+    </div>
+
+    <!-- Copyright -->
+    <div class="has-text-centered">
+      <p class="content">&copy; 2016–{{ CURRENT_YEAR | default(2025) }} — <a href="https://lemosassociates.com" target="_blank">Lemos Associates LLC</a></p>
+    </div>
+
+  </div>
+</footer>

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="{% block html_lang %}{{ DEFAULT_LANG }}{% endblock html_lang %}">
+<head>
+  {% block head %}
+    <meta charset="utf-8" />
+    <meta name="generator" content="Pelican" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>{% block title %}{{ SITENAME|striptags }}{% endblock title %}</title>
+
+    <!-- Fonts and Styles -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap">
+
+    <link rel="stylesheet" href="{{ SITEURL }}/theme/css/bulma.css">
+    <link rel="stylesheet" href="{{ SITEURL }}/theme/css/custom.css">
+
+    <!-- Favicon -->
+    <link rel="icon" href="{{ SITEURL }}/favicon.png" type="image/png" />
+
+    {% if SITESUBTITLE %}
+      <meta name="description" content="{{ SITESUBTITLE }}" />
+    {% endif %}
+
+    {# Optional: Feed links (RSS/Atom) #}
+  {% endblock head %}
+</head>
+
+<body>
+
+  <!-- ✅ Basic Navbar -->
+  <nav class="navbar is-light" role="navigation" aria-label="main navigation">
+    <div class="navbar-brand">
+      <a class="navbar-item" href="{{ SITEURL }}/">
+        {{ SITENAME }}
+      </a>
+    <

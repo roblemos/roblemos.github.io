@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>"Cite your sources" — Robert Lemos</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:600&family=Open+Sans&display=swap" rel="stylesheet">
+
+  <!-- Bulma & Custom Styles -->
+  <link rel="stylesheet" href="/theme/css/bulma.css">
+  <link rel="stylesheet" href="/theme/css/custom.css">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="/favicon.png">
+</head>
+<body>
+
+<nav class="navbar is-white is-spaced" role="navigation" aria-label="main navigation">
+  <div class="container is-flex is-align-items-center is-justify-content-space-between">
+
+    <!-- Branding: logo + name + subtitle -->
+    <a href="/" class="is-flex is-align-items-center has-text-dark" style="text-decoration: none;">
+      <figure class="image is-96x96 mr-0 mb-0">
+        <img src="/images/logo.png" alt="Site Logo">
+      </figure>
+      <div class="is-flex is-align-items-baseline ml-3">
+        <h1 class="title is-2 mb-0 mr-2 has-text-weight-bold">Robert Lemos</h1>
+          <p class="subtitle-inline">writer, journalist, coder, data analyst</p>
+      </div>
+    </a>
+
+    <!-- Menu -->
+    <div class="navbar-menu is-active">
+      <div class="navbar-end">
+        <a class="navbar-item" href="/">Home</a>
+        <a class="navbar-item" href="/pages/my-works.html">My Works</a>
+        <a class="navbar-item" href="/pages/ai-usage.html">AI Usage</a>
+        <a class="navbar-item" href="/pages/about.html">About</a>
+        <a class="navbar-item" href="/pages/contact.html">Contact</a>
+      </div>
+    </div>
+
+  </div>
+</nav>
+<section class="section article-section">
+  <div class="container content">
+
+
+    <h1>"Cite your sources"</h1>
+    <p class="post-meta">
+      April 23, 2017 by Robert Lemos
+      Categories :
+        <a href="/category/2017.html">2017</a>
+    </p>
+
+
+    <ul>
+<li>data science</li>
+<li>digging into data
+excerpt: <p>Digging into a data point that has minimal citation finds it is more three years older than expected and came from a completely different source.</p></li>
+</ul>
+<hr>
+<p>Every week -- if not every day -- I come across reports that quote a data point with very little information about the source. Here is a recent one (the data point is also in the press release):</p>
+<blockquote>
+<p>A recent Forrester Research report called attention to open source’s preeminence in application development, with custom code comprising only 10% to 20% of applications.
+- Black Duck's <a href="https://www.blackducksoftware.com/open-source-security-risk-analysis-2017"><em>2017 Open Source Security and Risk Analysis</em></a>, p. 5.</p>
+</blockquote>
+<p>The first problem I have with the data point is that there is no citation or link for the source of the data. The second problem I have is that -- and this took far more digging than is warranted -- the 10 to 20 percent number is <strong>not even from Forrester Research</strong>.</p>
+<p>Now, this is not about picking on one company. Both in my role as a journalist, and as a data scientist helping companies analyze data to produce internal and public reports, I often run into this problem. I'm hoping by highlighting the issues that companies will be more careful.</p>
+<p>So lets track this one back. And a note on terminology: If the paper gives a full citation, then I will use the verb "cite;" if they give vague information, I will describe that as "sourcing;" and if they give no information, I will label that "unsourced."</p>
+<h3>1. Black Duck's report sourced a Forrester report but with no citation</h3>
+<p>While the press release used the data point without a source, the report itself referred to "Forrester Research." After a few searches, I found <a href="https://www.bsminfo.com/doc/forrester-wave-report-highlights-the-clear-prominence-of-open-source-0001">this March 2017 article</a>, which mentions the same data point and links to the <a href="https://www.forrester.com/report/The+Forrester+Wave+Software+Composition+Analysis+Q1+2017/-/E-RES136463"><em>The Forrester Wave™: Software Composition Analysis, Q1 2017</em></a>. (Note: The article above essentially rewrites <a href="http://www.businesswire.com/news/home/20170223006024/en/Open-Source-Security-Provider-Black-Duck-%E2%80%9CLeader%E2%80%9D">a press release</a> from a couple weeks before.)</p>
+<h3>2. Citing a non-public report generally does not help</h3>
+<p>The Forrester Report lists for $2,495. However, these reports are generally available publicly. Searching for the title and PDF filetype redirected me to <a href="https://www.blackducksoftware.com/forrester-software-composition-analysis-q1-2017">a Black Duck landing page</a> that hosted the Forrester report. Turns out, Black Duck sponsored the Forrester report that named them a leader in the industry. This is not uncommon for any industry report.</p>
+<blockquote>
+<p>In their haste to create applications, developers use open source components as their foundation, creating applications using only 10% to 20% new code.
+- <a href="https://www.blackducksoftware.com/forrester-software-composition-analysis-q1-2017"><em>The Forrester Wave™: Software Composition Analysis, Q1 2017</em></a></p>
+</blockquote>
+<h3>3. The Forrester report actually cites Sonatype research</h3>
+<p>So, here's the rub: The Forrester report is not the source for the data point. The report cites a Sonatype report from 2015 <a href="http://cdn2.hubspot.net/hubfs/1958393/White_Papers/2015_State_of_the_Software_Supply_Chain_Report-.pdf?t=1466775053631">with a link</a>. (Kudos to Forrester Research for the link.)</p>
+<p>One problem, however, is that finding the number in the 33-page report is not easy. Searching for "10 to 20 percent" doesn't return anything, even searching through all the "10" entries does not work either. The reason is that the original data point is:</p>
+<blockquote>
+<p>[I]n the software supply chain, where an average of 106 components comprise 80-90% of the total application, few organizations have visibility into what components were used and where.
+- <a href="http://cdn2.hubspot.net/hubfs/1958393/White_Papers/2015_State_of_the_Software_Supply_Chain_Report-.pdf?t=1466775053631">2015 State of the Software Supply Chain Report</a>, p. 22.</p>
+</blockquote>
+<p>The point is also mentioned on page 5. (It was around this point that I decided this would make a good blog post.)</p>
+<p>The trail did not stop here, of course. Sonatype cited older research in both instances.</p>
+<h3>4. Sonatype report cites ongoing Application Health Check data (circa 2013-2014)</h3>
+<p>The 33-page Sonatype report cited (in an endnote) its own data: For the citation on page 5, "Sonatype research including Application Health Checks and Open Source surveys, 2013 – 2014," and for the citation on page 22, "Sonatype, 2014 analysis of Application Health Check results."</p>
+<p>Unfortunately, none of the Application Health Check results are contained in a standalone report. Some results are quoted in a slide deck, or what appears to be the notes to a slide deck.</p>
+<p>While there is no reason to doubt the veracity of the data, discovering its provenance was certainly a chore.</p>
+<p>Two final points:
+- A data point that was supposed to be "recent" <strong>actually came from data from 2013 or 2014</strong>. The data might even be older, as a <a href="https://www.cnet.com/news/forrester-survey-discovers-that-virtually-no-one-uses-open-source/">2008 CNET News.com piece</a> referred to a Gartner prediction:</p>
+<blockquote>
+<p>Earlier this year, Gartner's Mark Driver noted the following: By 2012, 80 percent or more of all commercial software will include elements of open-source technology.
+- Source is ComputerWorld UK (broken link), according to <a href="https://www.cnet.com/news/forrester-survey-discovers-that-virtually-no-one-uses-open-source/">CNET News.com</a>
+- Without more information, it is hard to decide what to make of, for example, Black Duck's finding that:
+On average, open source comprised 36% of the code base in these applications. This is a lower percentage than cited by Forrester, a reflection of the mature application codebases that are typically the focus of Black Duck audits.
+- Black Duck's <a href="https://www.blackducksoftware.com/open-source-security-risk-analysis-2017"><em>2017 Open Source Security and Risk Analysis</em></a>, p. 5.</p>
+</blockquote>
+<p><strong>Next week:</strong> Heard that ransomware caused $209 million in losses in Q1 2016? <a href="{% post_url 2017-10-03-ransomware-epidemic-or-overblown %}">It didn't.</a></p>
+  </div>
+</section>
+
+<footer class="section-sm pb-0 border-top border-default">
+  <div class="container">
+    <div class="columns is-multiline is-justify-content-space-between">
+
+      <!-- About this site -->
+      <div class="column is-3-desktop">
+        <h4 class="mb-4">About this site</h4>
+        <p>I built this site by adapting the layout of the
+          <a href="https://github.com/themefisher/logbook-bulma">the LogBook static theme</a> — which uses
+          <a href="https://bulma.io">the Bulma CSS framework</a> as a foundation — to work with
+          <a href="https://getpelican.com">the Pelican static site generator</a>.
+        </p>
+      </div>
+
+      <!-- Blogroll/Links -->
+      <div class="column is-2-widescreen is-3-desktop is-6">
+        <h6 class="mb-4">Blogroll</h6>
+        <ul class="footer-list">
+            <li><a href="https://www.lemosassociates.com/" target="_blank" rel="noopener">Lemos Associates LLC</a></li>
+            <li><a href="https://www.darkreading.com/" target="_blank" rel="noopener">Dark Reading</a></li>
+            <li><a href="https://technologyreview.com" target="_blank" rel="noopener">MIT Tech Review</a></li>
+            <li><a href="https://getpelican.com/" target="_blank" rel="noopener">Pelican</a></li>
+        </ul>
+      </div>
+
+      <!-- Social Links -->
+      <div class="column is-2-widescreen is-3-desktop is-6">
+        <h6 class="mb-4">Social</h6>
+        <ul class="footer-list">
+            <li><a href="https://www.linkedin.com/in/roblemos/" target="_blank" rel="noopener">LinkedIn</a></li>
+            <li><a href="https://github.com/roblemos" target="_blank" rel="noopener">GitHub</a></li>
+            <li><a href="https://roblemos.bsky.social" target="_blank" rel="noopener">Bluesky</a></li>
+            <li><a href="https://x.com/roblemos" target="_blank" rel="noopener">X/Twitter</a></li>
+        </ul>
+      </div>
+
+      <!-- Newsletter (optional placeholder) -->
+      <div class="column is-3-desktop">
+        <h6 class="mb-4">Subscribe Newsletter</h6>
+        <form class="subscription" action="javascript:void(0)" method="post">
+          <div class="is-relative">
+            <i class="ti-email email-icon"></i>
+            <input type="email" class="input" placeholder="Your Email Address">
+          </div>
+          <button class="btn btn-primary w-100 rounded mt-2" type="submit">Subscribe now</button>
+        </form>
+      </div>
+    </div>
+
+    <!-- Scroll-top (static link) -->
+    <div class="scroll-top">
+      <a href="#top">
+        <img src="/images/logo.png" alt="Back to top" class="footer-logo">
+      </a>
+    </div>
+
+    <!-- Copyright -->
+    <div class="has-text-centered">
+      <p class="content">&copy; 2016–2025 — <a href="https://lemosassociates.com" target="_blank">Lemos Associates LLC</a></p>
+    </div>
+
+  </div>
+</footer>
+</body>
+</html>

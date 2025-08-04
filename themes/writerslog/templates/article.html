@@ -1,0 +1,41 @@
+{% extends "base.html" %}
+
+{% block title %}{{ article.title }} — {{ SITENAME }}{% endblock %}
+
+{% block content %}
+<section class="section article-section">
+  <div class="container content">
+
+    {% if article.metadata.featured_image %}
+      <div class="featured-image mb-5">
+        <img src="{{ SITEURL }}/{{ article.metadata.featured_image }}" alt="{{ article.title }}">
+        {% if article.metadata.image_caption %}
+          <p class="image-caption">{{ article.metadata.image_caption }}</p>
+        {% endif %}
+      </div>
+    {% endif %}
+
+    <h1>{{ article.title }}</h1>
+    <p class="post-meta">
+      {{ article.date.strftime('%B %d, %Y') }} by {{ article.author or AUTHOR }}
+      Categories :
+      {% if article.category %}
+        <a href="{{ SITEURL }}/category/{{ article.category.slug }}.html">{{ article.category.name }}</a>
+      {% endif %}
+    </p>
+
+    {% if article.metadata.featured_side_image %}
+      <figure class="float-image" style="float: right; width: 200px; margin-left: 20px; margin-bottom: 10px;">
+        <img src="{{ SITEURL }}/{{ article.metadata.featured_side_image }}" alt="side image" style="width: 100%;">
+        {% if article.metadata.featured_side_caption %}
+          <figcaption class="figure-caption-sm">
+            {{ article.metadata.featured_side_caption }}
+          </figcaption>
+        {% endif %}
+      </figure>
+    {% endif %}
+
+    {{ article.content }}
+  </div>
+</section>
+{% endblock %}
