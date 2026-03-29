@@ -18,18 +18,18 @@
 <body>
 
 <nav class="navbar is-white is-spaced" role="navigation" aria-label="main navigation">
-  <div class="container is-flex is-align-items-center is-justify-content-space-between">
+  <div class="container navbar-container">
 
-    <!-- Branding: logo + name + subtitle -->
-    <a href="https://robertlemos.com/" class="is-flex is-align-items-center has-text-dark" style="text-decoration: none;">
-      <figure class="image is-96x96 mr-0 mb-0">
-        <img src="https://robertlemos.com/images/logo.png" alt="Site Logo">
-      </figure>
-      <div class="is-flex is-align-items-baseline ml-3">
-        <h1 class="title is-2 mb-0 mr-2 has-text-weight-bold">Robert Lemos</h1>
-          <p class="subtitle-inline">writer, journalist, coder, data analyst</p>
-      </div>
-    </a>
+    <!-- Branding: logo + name (link), then subtitle below -->
+    <div class="navbar-brand-block">
+      <a href="https://robertlemos.com/" class="navbar-name-link has-text-dark" style="text-decoration: none;">
+        <figure class="image is-96x96 mr-0 mb-0">
+          <img src="https://robertlemos.com/images/logo.png" alt="Site Logo">
+        </figure>
+        <h1 class="title is-2 mb-0 ml-3 has-text-weight-bold">Robert Lemos</h1>
+      </a>
+        <p class="subtitle-inline">writer, journalist, coder, data analyst</p>
+    </div>
 
     <!-- Menu -->
     <div class="navbar-menu is-active">
@@ -60,21 +60,50 @@
       </figure>
 
     <div class="content">
-      <p>As a technology journalist and data analyst, large language models (LLMs) pose a conundrum. On one hand, they are based
-on the taking of people's work to create knowledge machines that are not for the public benefit, but for to enrich 
-a few. On the other hand, when used for specific tasks and with full knowledge of their deficiencies, LLMs can save
-time and improve quality.</p>
-<p>That said, here is how I use the current crop of large language models:</p>
+      <h2>AI Usage Policy</h2>
+<p>As a technology journalist and developer, I’m always learning new technologies and trying to stay on the cutting — if not bleeding — edge. Artificial intelligence is one of the most transformative technologies of our time, and I actively explore its capabilities as part of my work.</p>
+<p>That said, I believe transparency matters. My basic policy is this:</p>
+<blockquote>
+<p>I am responsible for all the content that I deliver to my clients. For my journalism, <strong>I do not use AI to create any part of the content</strong>, and I limit my use of AI services to searching the internet, helping analyze documents, and transcribing interviews. In other, non-journalism work, I may use some AI tools to help me at certain stages, such as brainstorming, but I <strong>will never directly use output from an LLM</strong>. Development is a different beast, and I use several AI systems (Claude Code and JetBrain's Junie, specifically) for coding. However, I always review the code and take responsibility for the correctness of the code and its output (such as data analyses).</p>
+</blockquote>
+<h2>How I Use AI</h2>
+<p>I'm gradually adding large language models (LLMs) and AI-based services into my workflow. Here are my main use cases:</p>
+<h3>Research</h3>
 <ul>
-<li>I <strong>do not</strong> use LLMs for writing or editing my work.</li>
-<li>I <strong>do not</strong> use LLMs for art work (aside from the site logo and the anime-inspired image on this page).</li>
-<li>I <strong>occasionally use</strong> LLMs to help with research. </li>
-<li>I <strong>always</strong> check anything provided by an LLM, by finding reputable sources to verify provided facts.</li>
-<li>I <strong>frequently use</strong> LLMs as a pair programmer and assistant during my data science work and coding.</li>
-<li>I <strong>frequently experiment</strong> with new ways to use LLMs.</li>
+<li>Searching the internet, but I always check facts and data.</li>
+<li>Summarizing long reports, but I always use those summaries to go back and read through the reports.</li>
+<li>Quick analyses of data to gain insight into possible trends, but I will always build my own analysis notebook to produce charts. </li>
+<li>Creating summaries of recent events that may be connected to what I'm covering.</li>
+<li>Acting as an assistant to vet ideas and analyses.</li>
 </ul>
-<p>(More to come.)</p>
-<h2></h2>
+<h3>Interviews and sourcing</h3>
+<ul>
+<li>Transcribing interviews and presentations, and then summarizing key points, but I always check any quotes that I use against the audio.</li>
+<li>Brainstorming questions for interviewees. </li>
+</ul>
+<h3>Code Development</h3>
+<ul>
+<li>Creating new features, tests, and frameworks for my various projects.</li>
+<li>Helping me review code and understand other codebases.</li>
+<li>Helping to test possible alternative designs and refactor code.</li>
+</ul>
+<h2>Accuracy and Verification</h2>
+<p>AI systems can produce errors, hallucinations, or misleading outputs. Because of this:</p>
+<ul>
+<li>I verify facts using primary sources whenever possible</li>
+<li>I prioritize government, academic, and direct reporting sources</li>
+<li>I treat AI outputs as starting points, not authoritative answers</li>
+</ul>
+<h3>Data and Privacy</h3>
+<p>I do not knowingly put the following into any third-party AI system:</p>
+<ul>
+<li>Confidential information</li>
+<li>Off-the-record material</li>
+<li>Sensitive source data</li>
+</ul>
+<p>I use local LLMs when directly interacting with sensitive or confidential data.</p>
+<h2>Evolving Approach</h2>
+<p>AI is evolving rapidly, and so is my use of it. This policy may be updated as tools, standards, and best practices develop.</p>
     </div>
 
   </div>
@@ -85,7 +114,7 @@ time and improve quality.</p>
     <div class="columns is-multiline is-justify-content-space-between">
 
       <!-- About this site -->
-      <div class="column is-3-desktop">
+      <div class="column is-4-desktop">
         <h4 class="mb-4">About this site</h4>
         <p>I built this site by adapting the layout of the
           <a href="https://github.com/themefisher/logbook-bulma">the LogBook static theme</a> — which uses
@@ -95,7 +124,7 @@ time and improve quality.</p>
       </div>
 
       <!-- Blogroll/Links -->
-      <div class="column is-2-widescreen is-3-desktop is-6">
+      <div class="column is-3-desktop is-6">
         <h6 class="mb-4">Blogroll</h6>
         <ul class="footer-list">
             <li><a href="https://www.lemosassociates.com/" target="_blank" rel="noopener">Lemos Associates LLC</a></li>
@@ -106,7 +135,7 @@ time and improve quality.</p>
       </div>
 
       <!-- Social Links -->
-      <div class="column is-2-widescreen is-3-desktop is-6">
+      <div class="column is-3-desktop is-6">
         <h6 class="mb-4">Social</h6>
         <ul class="footer-list">
             <li><a href="https://www.linkedin.com/in/roblemos/" target="_blank" rel="noopener">LinkedIn</a></li>
@@ -116,17 +145,6 @@ time and improve quality.</p>
         </ul>
       </div>
 
-      <!-- Newsletter (optional placeholder) -->
-<!--      <div class="column is-3-desktop">-->
-<!--        <h6 class="mb-4">Subscribe Newsletter</h6>-->
-<!--        <form class="subscription" action="javascript:void(0)" method="post">-->
-<!--          <div class="is-relative">-->
-<!--            <i class="ti-email email-icon"></i>-->
-<!--            <input type="email" class="input" placeholder="Your Email Address">-->
-<!--          </div>-->
-<!--          <button class="btn btn-primary w-100 rounded mt-2" type="submit">Subscribe now</button>-->
-<!--        </form>-->
-<!--      </div>-->
     </div>
 
     <!-- Scroll-top (static link) -->
@@ -138,10 +156,27 @@ time and improve quality.</p>
 
     <!-- Copyright -->
     <div class="has-text-centered">
-      <p class="content">&copy; 2016–2025 — <a href="https://lemosassociates.com" target="_blank">Lemos Associates LLC</a></p>
+      <p class="content">&copy; 2016–2026 — <a href="https://lemosassociates.com" target="_blank">Lemos Associates LLC</a></p>
     </div>
 
   </div>
 </footer>
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      var path = window.location.pathname;
+      document.querySelectorAll('.navbar-end .navbar-item').forEach(function (link) {
+        var a = document.createElement('a');
+        a.href = link.getAttribute('href');
+        var linkPath = a.pathname;
+        var isHome = linkPath === '/' || linkPath === '/index.html';
+        var currentIsHome = path === '/' || path === '/index.html';
+        if ((isHome && currentIsHome) ||
+            (!isHome && path === linkPath)) {
+          link.classList.add('is-active');
+        }
+      });
+    });
+  </script>
+
 </body>
 </html>

@@ -18,18 +18,18 @@
 <body>
 
 <nav class="navbar is-white is-spaced" role="navigation" aria-label="main navigation">
-  <div class="container is-flex is-align-items-center is-justify-content-space-between">
+  <div class="container navbar-container">
 
-    <!-- Branding: logo + name + subtitle -->
-    <a href="https://robertlemos.com/" class="is-flex is-align-items-center has-text-dark" style="text-decoration: none;">
-      <figure class="image is-96x96 mr-0 mb-0">
-        <img src="https://robertlemos.com/images/logo.png" alt="Site Logo">
-      </figure>
-      <div class="is-flex is-align-items-baseline ml-3">
-        <h1 class="title is-2 mb-0 mr-2 has-text-weight-bold">Robert Lemos</h1>
-          <p class="subtitle-inline">writer, journalist, coder, data analyst</p>
-      </div>
-    </a>
+    <!-- Branding: logo + name (link), then subtitle below -->
+    <div class="navbar-brand-block">
+      <a href="https://robertlemos.com/" class="navbar-name-link has-text-dark" style="text-decoration: none;">
+        <figure class="image is-96x96 mr-0 mb-0">
+          <img src="https://robertlemos.com/images/logo.png" alt="Site Logo">
+        </figure>
+        <h1 class="title is-2 mb-0 ml-3 has-text-weight-bold">Robert Lemos</h1>
+      </a>
+        <p class="subtitle-inline">writer, journalist, coder, data analyst</p>
+    </div>
 
     <!-- Menu -->
     <div class="navbar-menu is-active">
@@ -236,14 +236,6 @@ data regulations, and …</p></p>
 
       <!-- Sidebar -->
       <aside class="column is-4-desktop">
-        <!-- Search -->
-<!--        <div class="widget">-->
-<!--          <h5 class="widget-title"><span>Search</span></h5>-->
-<!--          <form action="https://robertlemos.com/search.html" method="get" class="widget-search">-->
-<!--            <input type="search" name="q" placeholder="Type &amp; Hit Enter...">-->
-<!--            <button type="submit"><i class="ti-search"></i></button>-->
-<!--          </form>-->
-<!--        </div>-->
 
         <!-- Categories -->
         <div class="widget">
@@ -256,7 +248,7 @@ data regulations, and …</p></p>
               </li>
               <li>
                 <a class="is-flex" href="https://robertlemos.com/category/week-in-review.html">
-                  Week in Review <small class="ml-auto">(16)</small>
+                  Week in Review <small class="ml-auto">(20)</small>
                 </a>
               </li>
           </ul>
@@ -267,31 +259,106 @@ data regulations, and …</p></p>
           <h5 class="widget-title"><span>Tags</span></h5>
           <ul class="list-inline widget-list-inline">
               <li class="list-inline-item">
-                <a href="https://robertlemos.com/tag/dark-reading.html">Dark Reading</a>
-              </li>
-              <li class="list-inline-item">
                 <a href="https://robertlemos.com/tag/africa.html">Africa</a>
               </li>
               <li class="list-inline-item">
-                <a href="https://robertlemos.com/tag/cybersecurity.html">cybersecurity</a>
+                <a href="https://robertlemos.com/tag/ai.html">ai</a>
+              </li>
+              <li class="list-inline-item">
+                <a href="https://robertlemos.com/tag/ai-security.html">ai-security</a>
+              </li>
+              <li class="list-inline-item">
+                <a href="https://robertlemos.com/tag/apt.html">apt</a>
               </li>
               <li class="list-inline-item">
                 <a href="https://robertlemos.com/tag/articles.html">articles</a>
               </li>
               <li class="list-inline-item">
-                <a href="https://robertlemos.com/tag/cyberattacks.html">cyberattacks</a>
+                <a href="https://robertlemos.com/tag/asia.html">Asia</a>
               </li>
               <li class="list-inline-item">
-                <a href="https://robertlemos.com/tag/india.html">India</a>
+                <a href="https://robertlemos.com/tag/attacks-using-ai.html">attacks-using-ai</a>
               </li>
               <li class="list-inline-item">
                 <a href="https://robertlemos.com/tag/cisos.html">CISOs</a>
               </li>
               <li class="list-inline-item">
-                <a href="https://robertlemos.com/tag/asia.html">Asia</a>
+                <a href="https://robertlemos.com/tag/cloud.html">cloud</a>
               </li>
               <li class="list-inline-item">
                 <a href="https://robertlemos.com/tag/comics.html">comics</a>
+              </li>
+              <li class="list-inline-item">
+                <a href="https://robertlemos.com/tag/critical-infrastructure.html">critical-infrastructure</a>
+              </li>
+              <li class="list-inline-item">
+                <a href="https://robertlemos.com/tag/cyber-conflict.html">cyber-conflict</a>
+              </li>
+              <li class="list-inline-item">
+                <a href="https://robertlemos.com/tag/cyberattacks.html">cyberattacks</a>
+              </li>
+              <li class="list-inline-item">
+                <a href="https://robertlemos.com/tag/cybersecurity.html">cybersecurity</a>
+              </li>
+              <li class="list-inline-item">
+                <a href="https://robertlemos.com/tag/dark-reading.html">Dark Reading</a>
+              </li>
+              <li class="list-inline-item">
+                <a href="https://robertlemos.com/tag/dark-markets.html">dark-markets</a>
+              </li>
+              <li class="list-inline-item">
+                <a href="https://robertlemos.com/tag/encryption.html">encryption</a>
+              </li>
+              <li class="list-inline-item">
+                <a href="https://robertlemos.com/tag/exploitation.html">exploitation</a>
+              </li>
+              <li class="list-inline-item">
+                <a href="https://robertlemos.com/tag/india.html">india</a>
+              </li>
+              <li class="list-inline-item">
+                <a href="https://robertlemos.com/tag/internet-of-things.html">internet-of-things</a>
+              </li>
+              <li class="list-inline-item">
+                <a href="https://robertlemos.com/tag/mexico.html">mexico</a>
+              </li>
+              <li class="list-inline-item">
+                <a href="https://robertlemos.com/tag/nation-state.html">nation-state</a>
+              </li>
+              <li class="list-inline-item">
+                <a href="https://robertlemos.com/tag/phishing.html">phishing</a>
+              </li>
+              <li class="list-inline-item">
+                <a href="https://robertlemos.com/tag/post-quantum.html">post-quantum</a>
+              </li>
+              <li class="list-inline-item">
+                <a href="https://robertlemos.com/tag/quantum-computing.html">quantum-computing</a>
+              </li>
+              <li class="list-inline-item">
+                <a href="https://robertlemos.com/tag/ransomware.html">ransomware</a>
+              </li>
+              <li class="list-inline-item">
+                <a href="https://robertlemos.com/tag/region-latin-america.html">region-latin-america</a>
+              </li>
+              <li class="list-inline-item">
+                <a href="https://robertlemos.com/tag/region-middle-east.html">region-middle-east</a>
+              </li>
+              <li class="list-inline-item">
+                <a href="https://robertlemos.com/tag/region-southeast-asia.html">region-southeast-asia</a>
+              </li>
+              <li class="list-inline-item">
+                <a href="https://robertlemos.com/tag/soc.html">soc</a>
+              </li>
+              <li class="list-inline-item">
+                <a href="https://robertlemos.com/tag/spyware.html">spyware</a>
+              </li>
+              <li class="list-inline-item">
+                <a href="https://robertlemos.com/tag/surveillance.html">surveillance</a>
+              </li>
+              <li class="list-inline-item">
+                <a href="https://robertlemos.com/tag/web.html">web</a>
+              </li>
+              <li class="list-inline-item">
+                <a href="https://robertlemos.com/tag/weekly-review.html">weekly-review</a>
               </li>
           </ul>
         </div>
@@ -345,7 +412,7 @@ data regulations, and …</p></p>
     <div class="columns is-multiline is-justify-content-space-between">
 
       <!-- About this site -->
-      <div class="column is-3-desktop">
+      <div class="column is-4-desktop">
         <h4 class="mb-4">About this site</h4>
         <p>I built this site by adapting the layout of the
           <a href="https://github.com/themefisher/logbook-bulma">the LogBook static theme</a> — which uses
@@ -355,7 +422,7 @@ data regulations, and …</p></p>
       </div>
 
       <!-- Blogroll/Links -->
-      <div class="column is-2-widescreen is-3-desktop is-6">
+      <div class="column is-3-desktop is-6">
         <h6 class="mb-4">Blogroll</h6>
         <ul class="footer-list">
             <li><a href="https://www.lemosassociates.com/" target="_blank" rel="noopener">Lemos Associates LLC</a></li>
@@ -366,7 +433,7 @@ data regulations, and …</p></p>
       </div>
 
       <!-- Social Links -->
-      <div class="column is-2-widescreen is-3-desktop is-6">
+      <div class="column is-3-desktop is-6">
         <h6 class="mb-4">Social</h6>
         <ul class="footer-list">
             <li><a href="https://www.linkedin.com/in/roblemos/" target="_blank" rel="noopener">LinkedIn</a></li>
@@ -376,17 +443,6 @@ data regulations, and …</p></p>
         </ul>
       </div>
 
-      <!-- Newsletter (optional placeholder) -->
-<!--      <div class="column is-3-desktop">-->
-<!--        <h6 class="mb-4">Subscribe Newsletter</h6>-->
-<!--        <form class="subscription" action="javascript:void(0)" method="post">-->
-<!--          <div class="is-relative">-->
-<!--            <i class="ti-email email-icon"></i>-->
-<!--            <input type="email" class="input" placeholder="Your Email Address">-->
-<!--          </div>-->
-<!--          <button class="btn btn-primary w-100 rounded mt-2" type="submit">Subscribe now</button>-->
-<!--        </form>-->
-<!--      </div>-->
     </div>
 
     <!-- Scroll-top (static link) -->
@@ -398,10 +454,27 @@ data regulations, and …</p></p>
 
     <!-- Copyright -->
     <div class="has-text-centered">
-      <p class="content">&copy; 2016–2025 — <a href="https://lemosassociates.com" target="_blank">Lemos Associates LLC</a></p>
+      <p class="content">&copy; 2016–2026 — <a href="https://lemosassociates.com" target="_blank">Lemos Associates LLC</a></p>
     </div>
 
   </div>
 </footer>
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      var path = window.location.pathname;
+      document.querySelectorAll('.navbar-end .navbar-item').forEach(function (link) {
+        var a = document.createElement('a');
+        a.href = link.getAttribute('href');
+        var linkPath = a.pathname;
+        var isHome = linkPath === '/' || linkPath === '/index.html';
+        var currentIsHome = path === '/' || path === '/index.html';
+        if ((isHome && currentIsHome) ||
+            (!isHome && path === linkPath)) {
+          link.classList.add('is-active');
+        }
+      });
+    });
+  </script>
+
 </body>
 </html>

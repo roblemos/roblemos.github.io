@@ -18,18 +18,18 @@
 <body>
 
 <nav class="navbar is-white is-spaced" role="navigation" aria-label="main navigation">
-  <div class="container is-flex is-align-items-center is-justify-content-space-between">
+  <div class="container navbar-container">
 
-    <!-- Branding: logo + name + subtitle -->
-    <a href="https://robertlemos.com/" class="is-flex is-align-items-center has-text-dark" style="text-decoration: none;">
-      <figure class="image is-96x96 mr-0 mb-0">
-        <img src="https://robertlemos.com/images/logo.png" alt="Site Logo">
-      </figure>
-      <div class="is-flex is-align-items-baseline ml-3">
-        <h1 class="title is-2 mb-0 mr-2 has-text-weight-bold">Robert Lemos</h1>
-          <p class="subtitle-inline">writer, journalist, coder, data analyst</p>
-      </div>
-    </a>
+    <!-- Branding: logo + name (link), then subtitle below -->
+    <div class="navbar-brand-block">
+      <a href="https://robertlemos.com/" class="navbar-name-link has-text-dark" style="text-decoration: none;">
+        <figure class="image is-96x96 mr-0 mb-0">
+          <img src="https://robertlemos.com/images/logo.png" alt="Site Logo">
+        </figure>
+        <h1 class="title is-2 mb-0 ml-3 has-text-weight-bold">Robert Lemos</h1>
+      </a>
+        <p class="subtitle-inline">writer, journalist, coder, data analyst</p>
+    </div>
 
     <!-- Menu -->
     <div class="navbar-menu is-active">
@@ -89,7 +89,7 @@ but <a href="https://www.darkreading.com/cloud-security/misconfigurated-custom-s
     <div class="columns is-multiline is-justify-content-space-between">
 
       <!-- About this site -->
-      <div class="column is-3-desktop">
+      <div class="column is-4-desktop">
         <h4 class="mb-4">About this site</h4>
         <p>I built this site by adapting the layout of the
           <a href="https://github.com/themefisher/logbook-bulma">the LogBook static theme</a> — which uses
@@ -99,7 +99,7 @@ but <a href="https://www.darkreading.com/cloud-security/misconfigurated-custom-s
       </div>
 
       <!-- Blogroll/Links -->
-      <div class="column is-2-widescreen is-3-desktop is-6">
+      <div class="column is-3-desktop is-6">
         <h6 class="mb-4">Blogroll</h6>
         <ul class="footer-list">
             <li><a href="https://www.lemosassociates.com/" target="_blank" rel="noopener">Lemos Associates LLC</a></li>
@@ -110,7 +110,7 @@ but <a href="https://www.darkreading.com/cloud-security/misconfigurated-custom-s
       </div>
 
       <!-- Social Links -->
-      <div class="column is-2-widescreen is-3-desktop is-6">
+      <div class="column is-3-desktop is-6">
         <h6 class="mb-4">Social</h6>
         <ul class="footer-list">
             <li><a href="https://www.linkedin.com/in/roblemos/" target="_blank" rel="noopener">LinkedIn</a></li>
@@ -120,17 +120,6 @@ but <a href="https://www.darkreading.com/cloud-security/misconfigurated-custom-s
         </ul>
       </div>
 
-      <!-- Newsletter (optional placeholder) -->
-<!--      <div class="column is-3-desktop">-->
-<!--        <h6 class="mb-4">Subscribe Newsletter</h6>-->
-<!--        <form class="subscription" action="javascript:void(0)" method="post">-->
-<!--          <div class="is-relative">-->
-<!--            <i class="ti-email email-icon"></i>-->
-<!--            <input type="email" class="input" placeholder="Your Email Address">-->
-<!--          </div>-->
-<!--          <button class="btn btn-primary w-100 rounded mt-2" type="submit">Subscribe now</button>-->
-<!--        </form>-->
-<!--      </div>-->
     </div>
 
     <!-- Scroll-top (static link) -->
@@ -142,10 +131,27 @@ but <a href="https://www.darkreading.com/cloud-security/misconfigurated-custom-s
 
     <!-- Copyright -->
     <div class="has-text-centered">
-      <p class="content">&copy; 2016–2025 — <a href="https://lemosassociates.com" target="_blank">Lemos Associates LLC</a></p>
+      <p class="content">&copy; 2016–2026 — <a href="https://lemosassociates.com" target="_blank">Lemos Associates LLC</a></p>
     </div>
 
   </div>
 </footer>
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      var path = window.location.pathname;
+      document.querySelectorAll('.navbar-end .navbar-item').forEach(function (link) {
+        var a = document.createElement('a');
+        a.href = link.getAttribute('href');
+        var linkPath = a.pathname;
+        var isHome = linkPath === '/' || linkPath === '/index.html';
+        var currentIsHome = path === '/' || path === '/index.html';
+        if ((isHome && currentIsHome) ||
+            (!isHome && path === linkPath)) {
+          link.classList.add('is-active');
+        }
+      });
+    });
+  </script>
+
 </body>
 </html>

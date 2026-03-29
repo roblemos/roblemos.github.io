@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Week in Review — March 16–20, 2026 — Robert Lemos</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:600&family=Open+Sans&display=swap" rel="stylesheet">
+
+  <!-- Bulma & Custom Styles -->
+  <link rel="stylesheet" href="https://robertlemos.com/theme/css/bulma.css">
+  <link rel="stylesheet" href="https://robertlemos.com/theme/css/custom.css">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="https://robertlemos.com/favicon.png">
+</head>
+<body>
+
+<nav class="navbar is-white is-spaced" role="navigation" aria-label="main navigation">
+  <div class="container navbar-container">
+
+    <!-- Branding: logo + name (link), then subtitle below -->
+    <div class="navbar-brand-block">
+      <a href="https://robertlemos.com/" class="navbar-name-link has-text-dark" style="text-decoration: none;">
+        <figure class="image is-96x96 mr-0 mb-0">
+          <img src="https://robertlemos.com/images/logo.png" alt="Site Logo">
+        </figure>
+        <h1 class="title is-2 mb-0 ml-3 has-text-weight-bold">Robert Lemos</h1>
+      </a>
+        <p class="subtitle-inline">writer, journalist, coder, data analyst</p>
+    </div>
+
+    <!-- Menu -->
+    <div class="navbar-menu is-active">
+      <div class="navbar-end">
+        <a class="navbar-item" href="https://robertlemos.com/">Home</a>
+        <a class="navbar-item" href="https://robertlemos.com/pages/my-works.html">My Works</a>
+        <a class="navbar-item" href="https://robertlemos.com/pages/ai-usage.html">AI Usage</a>
+        <a class="navbar-item" href="https://robertlemos.com/pages/about.html">About</a>
+        <a class="navbar-item" href="https://robertlemos.com/pages/contact.html">Contact</a>
+      </div>
+    </div>
+
+  </div>
+</nav>
+<section class="section article-section">
+  <div class="container content">
+
+      <div class="featured-image mb-5">
+        <img src="https://robertlemos.com/images/sidewinder-snake-on-sand-dune-Chantelle_Bosch-shutterstock.jpg" alt="Week in Review — March 16–20, 2026">
+      </div>
+
+    <h1>Week in Review — March 16–20, 2026</h1>
+    <p class="post-meta">
+      March 20, 2026 by Robert Lemos
+      Categories :
+        <a href="https://robertlemos.com/category/week-in-review.html">Week in Review</a>
+    </p>
+
+
+    <p>This week’s cybersecurity landscape shows continued pressure on both government and private sectors.  A known India‑linked threat actor has broadened its operations into Indonesia and Thailand, using familiar spear‑phishing and legacy Windows vulnerabilities to stay embedded in critical infrastructure.  At the same time, the Internet Engineering Task Force’s draft Merkle tree certificate standard is moving from theory to production, with major providers like Google and Cloudflare testing quantum‑safe HTTPS that cuts certificate size to one‑tenth of current post‑quantum algorithms.  Meanwhile, a public server belonging to the Beast ransomware group was discovered on a German cloud platform, exposing the group’s full toolset—including backup‑disabling scripts—highlighting the continuing evolution of ransomware tactics.</p>
+<p>The convergence of espionage expansion, quantum‑ready web security, and ransomware tool leakage illustrates a broader trend: attackers are increasingly sophisticated, while defenders are beginning to adopt forward‑looking cryptographic measures.  These events underscore the need for continuous monitoring, resilient backup strategies, and early adoption of quantum‑safe protocols.</p>
+<h2><a href="https://www.darkreading.com/threat-intelligence/sidewinder-espionage-campaign-expands-across-southeast-asia">SideWinder Espionage Campaign Expands Across Southeast Asia | Dark Reading</a></h2>
+<p>The SideWinder APT group, suspected to be India‑linked, has extended its operations into Indonesia and Thailand, continuing to target governments, telecoms, and critical infrastructure.  The group employs government‑audit themed spear‑phishing, credential theft, and exploitation of long‑patched Microsoft Office vulnerabilities, coupled with DLL hijacking for initial foothold.  Post‑exploitation activities are highly structured: a staged payload delivery, persistence via Windows services, and dynamic configuration of C2 addresses allows rapid infrastructure rotation without redeploying malware.  The campaign’s longevity and breadth emphasize SideWinder’s focus on sustained access rather than short‑term gain.</p>
+<h2><a href="https://www.darkreading.com/cloud-security/post-quantum-web-could-be-safer-faster">Post-Quantum Web Could be Safer, Faster | Dark Reading</a></h2>
+<p>An IETF draft specification for Merkle tree certificates (MTCs) is being tested by major Internet infrastructure providers, including Google and Cloudflare, to future‑proof HTTPS against quantum attacks.  MTCs use hash‑based certificates that require keys less than 10 % the size of other post‑quantum methods, resulting in faster connection establishment and reduced bandwidth.  The prototype has already been deployed on real traffic, proving that the approach can handle existing middle‑box infrastructure that often fails with larger quantum‑safe certificates.  As 66 % of Cloudflare’s non‑bot traffic already uses TLS with post‑quantum encryption, the move toward MTCs signals a practical path toward resilient, quantum‑secure communications.</p>
+<h2><a href="https://www.darkreading.com/threat-intelligence/opsec-beast-gang-exposes-ransomware-server">Cyber OpSec Fail: Beast Gang Exposes Ransomware Server | Dark Reading</a></h2>
+<p>A publicly accessible server on a German cloud provider hosts the entire toolset of the Beast ransomware group, revealing their tactics, techniques, and procedures (TTPs).  The collection includes reconnaissance, credential theft, persistence, lateral movement tools, and scripts designed to delete Windows Volume Shadow Copy Service backups (“disable_backup.bat”) and terminate security processes.  The server also contains “CleanExit.exe,” likely a log‑wiping utility.  The exposed TTPs overlap with those used by other ransomware gangs, such as Monster and AhnLab‑identified Beast, indicating shared toolkits like AnyDesk and Mega.  The findings highlight the importance of off‑site, resilient backups and the need for defenses that block common ransomware utilities before they can execute.</p>
+<p><em><small>(Created with Ollama and GPT-OSS)</small></em></p>
+  </div>
+</section>
+
+<footer class="section-sm pb-0 border-top border-default">
+  <div class="container">
+    <div class="columns is-multiline is-justify-content-space-between">
+
+      <!-- About this site -->
+      <div class="column is-4-desktop">
+        <h4 class="mb-4">About this site</h4>
+        <p>I built this site by adapting the layout of the
+          <a href="https://github.com/themefisher/logbook-bulma">the LogBook static theme</a> — which uses
+          <a href="https://bulma.io">the Bulma CSS framework</a> as a foundation — to work with
+          <a href="https://getpelican.com">the Pelican static site generator</a>.
+        </p>
+      </div>
+
+      <!-- Blogroll/Links -->
+      <div class="column is-3-desktop is-6">
+        <h6 class="mb-4">Blogroll</h6>
+        <ul class="footer-list">
+            <li><a href="https://www.lemosassociates.com/" target="_blank" rel="noopener">Lemos Associates LLC</a></li>
+            <li><a href="https://www.darkreading.com/" target="_blank" rel="noopener">Dark Reading</a></li>
+            <li><a href="https://technologyreview.com" target="_blank" rel="noopener">MIT Tech Review</a></li>
+            <li><a href="https://getpelican.com/" target="_blank" rel="noopener">Pelican</a></li>
+        </ul>
+      </div>
+
+      <!-- Social Links -->
+      <div class="column is-3-desktop is-6">
+        <h6 class="mb-4">Social</h6>
+        <ul class="footer-list">
+            <li><a href="https://www.linkedin.com/in/roblemos/" target="_blank" rel="noopener">LinkedIn</a></li>
+            <li><a href="https://github.com/roblemos" target="_blank" rel="noopener">GitHub</a></li>
+            <li><a href="https://roblemos.bsky.social" target="_blank" rel="noopener">Bluesky</a></li>
+            <li><a href="https://x.com/roblemos" target="_blank" rel="noopener">X/Twitter</a></li>
+        </ul>
+      </div>
+
+    </div>
+
+    <!-- Scroll-top (static link) -->
+    <div class="scroll-top">
+      <a href="#top">
+        <img src="https://robertlemos.com/images/logo.png" alt="Back to top" class="footer-logo">
+      </a>
+    </div>
+
+    <!-- Copyright -->
+    <div class="has-text-centered">
+      <p class="content">&copy; 2016–2026 — <a href="https://lemosassociates.com" target="_blank">Lemos Associates LLC</a></p>
+    </div>
+
+  </div>
+</footer>
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      var path = window.location.pathname;
+      document.querySelectorAll('.navbar-end .navbar-item').forEach(function (link) {
+        var a = document.createElement('a');
+        a.href = link.getAttribute('href');
+        var linkPath = a.pathname;
+        var isHome = linkPath === '/' || linkPath === '/index.html';
+        var currentIsHome = path === '/' || path === '/index.html';
+        if ((isHome && currentIsHome) ||
+            (!isHome && path === linkPath)) {
+          link.classList.add('is-active');
+        }
+      });
+    });
+  </script>
+
+</body>
+</html>
