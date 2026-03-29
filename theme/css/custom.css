@@ -483,7 +483,7 @@ a:hover {
   margin: 0;
   padding: 0.5rem 0.6rem;
 }
-@media (max-width: 1023px) {
+@media (max-width: 768px) {
   .navbar-item {
     text-align: center;
   }
@@ -525,23 +525,25 @@ a:hover {
 
 /* Navbar layout: branding block (logo+name+subtitle) + menu side by side */
 .navbar-container {
-  display: flex;
+  display: flex !important;
+  flex-direction: row !important;
   align-items: center;
   justify-content: space-between;
-  flex-wrap: wrap;
-  gap: 0.75rem;
 }
 
 .navbar-brand-block {
   display: flex;
+  flex-direction: row;
   align-items: center;
-  gap: 1rem;
-  flex-wrap: wrap;
+  gap: 0.75rem;
+  flex-shrink: 0;
 }
 
 .navbar-name-link {
   display: flex;
+  flex-direction: row;
   align-items: center;
+  gap: 0.75rem;
 }
 
 /* Active nav item: light blue squoval pill */
@@ -552,18 +554,19 @@ a:hover {
   font-weight: 500;
 }
 
-/* Responsive: stack brand block and menu vertically */
-@media (max-width: 1023px) {
+/* Responsive: stack brand block and menu vertically (phones only) */
+@media (max-width: 768px) {
   .navbar-container {
-    flex-direction: column;
+    flex-direction: column !important;
     align-items: center;
     text-align: center;
+    gap: 0.5rem;
   }
 
   .navbar-brand-block {
     flex-direction: column;
     align-items: center;
-    gap: 0.25rem;
+    gap: 0.2rem;
   }
 
   .navbar-menu.is-active {
